@@ -1,0 +1,25 @@
+# Pakiety R użyte w projekcie (R 4.6.0)
+# Instalacja:
+# install.packages(c("dplyr", "fixest", "ggplot2", "glmnet", "htmltools", "htmlwidgets", "jsonlite", "knitr", "leaflet", "nnet", "plm", "plotly", "ranger", "readxl", "rmarkdown", "sf", "spatialreg", "spdep", "splm", "tidyr", "xgboost"))
+
+dplyr          1.2.1
+fixest         0.14.2
+ggplot2        4.0.3
+glmnet         5.2
+htmltools      0.5.9
+htmlwidgets    1.6.4
+jsonlite       2.0.0
+knitr          1.51
+leaflet        2.2.3
+nnet           7.3.20
+plm            2.6.7
+plotly         4.12.1
+ranger         0.18.0
+readxl         1.6.0
+rmarkdown      2.31
+sf             1.1.1
+spatialreg     1.4.3
+spdep          1.4.2
+splm           1.6.5
+tidyr          1.3.2
+xgboost        3.2.1.1

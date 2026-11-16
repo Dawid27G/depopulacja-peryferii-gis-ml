@@ -1,0 +1,4 @@
+"model","rmse","rmse_peryferyjne","poprawa_vs_fe_pct","poprawa_vs_poprzedni_rok_pct"
+"XGBoost panelowy",2.24234195429948,2.24234195429948,35.5123966015782,-21.3521973591757
+"FE panelowy",3.47716744944868,3.47716744944868,NA,NA
+"poprzedni rok",1.84779674624485,1.84779674624485,NA,NA

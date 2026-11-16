@@ -1,0 +1,4 @@
+"model_a","model_b","srednia_roznica","p","lat_lepszy"
+"Elastic net determinantów (bez dep_lag)","XGBoost determinantów (bez dep_lag)",-0.135862039604349,0.636450762421781,2
+"Hybryda: elastic net + progi z ALE (XGBoost)","Elastic net determinantów (bez dep_lag)",-0.25747502551805,0.106216065577739,5
+"Hybryda: elastic net + progi z ALE (XGBoost)","XGBoost determinantów (bez dep_lag)",-0.3933370651224,0.126325138419972,2

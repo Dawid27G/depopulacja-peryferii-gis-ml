@@ -1,0 +1,21 @@
+# Kopie robocze i stare wersje (historia jest w gicie)
+backup_*/
+archiwum/
+
+# Pliki tymczasowe R / RStudio / VS Code
+.Rhistory
+.RData
+.Rproj.user/
+.vdoc.*
+*_cache/
+*_files/
+
+# Duża mapa generowana przez skrypt (ok. 15 MB) – odtwarzalna jednym przebiegiem
+outputs/mapa_interaktywna_prognoz_2025_2030.html
+outputs/mapa_interaktywna_prognoz_2025_2030_files/
+
+# Pliki systemowe
+Thumbs.db
+desktop.ini
+.DS_Store
+~$*

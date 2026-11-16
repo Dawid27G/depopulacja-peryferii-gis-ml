@@ -1,0 +1,13 @@
+"schemat","model","rmse","mae","n"
+"losowy (obserwacje)","Elastic net",1.95263445739496,1.51395447567479,1270
+"losowy (obserwacje)","OLS (pooled)",1.79154942580193,1.34189916002346,1270
+"losowy (obserwacje)","XGBoost",1.9280285415864,1.48159392913722,1270
+"losowy (obserwacje)","poprzedni rok",2.38475268517488,1.80537165354331,1270
+"przestrzenno-czasowy","Elastic net",2.21184373359859,1.73266863927374,762
+"przestrzenno-czasowy","OLS (pooled)",2.21486551938921,1.71548168186184,762
+"przestrzenno-czasowy","XGBoost",2.46116818748818,1.96649304573372,762
+"przestrzenno-czasowy","poprzedni rok",2.48169519154288,1.90918477690289,762
+"przestrzenny blokowy","Elastic net",1.9725083105282,1.53300717137342,1270
+"przestrzenny blokowy","OLS (pooled)",1.82939433328864,1.37345433715221,1270
+"przestrzenny blokowy","XGBoost",1.94867227712061,1.49860228237153,1270
+"przestrzenny blokowy","poprzedni rok",2.38475268517488,1.80537165354331,1270

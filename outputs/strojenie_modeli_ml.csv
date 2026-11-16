@@ -1,0 +1,6 @@
+"model","metoda","konfiguracje","wybrane","rmse_walidacja_2017_2018"
+"XGBoost dostrojony","random search","200","max_depth=1, eta=0.0412, min_child_weight=2.56, subsample=0.65, colsample=0.56, lambda=3.650, alpha=0.000, gamma=0.00, nrounds=173",2.13386061131203
+"Random Forest","random search","20","mtry=15, min.node.size=20, sample.fraction=0.73",2.04840109577304
+"Geographical Random Forest","random search","10","k=50 sąsiadów, waga lokalna=0.25, min.node.size=3",2.08762283871215
+"Sieć neuronowa MLP","random search","20","neurony=9, decay=4.4",2.2243140949621
+"Elastic net","siatka α × pełna ścieżka λ","4 × ok. 100","alpha=1.0, lambda=0.1448",NA

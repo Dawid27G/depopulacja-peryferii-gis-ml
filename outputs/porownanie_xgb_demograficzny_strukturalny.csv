@@ -1,0 +1,4 @@
+"model","rmse_srednie","rmse_sd","lata_testowe"
+"Hybryda: elastic net + progi z ALE (XGBoost)",2.16739723160251,0.252058141975388,6
+"Elastic net determinantów (bez dep_lag)",2.22662418849381,0.245377091197972,6
+"XGBoost determinantów (bez dep_lag)",2.22735505750724,0.468335386138133,6

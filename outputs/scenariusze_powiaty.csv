@@ -1,0 +1,763 @@
+"kod_powiatu","scenariusz","model","prognoza_bazowa","prognoza_scenariusz","efekt_1000"
+"11212014000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-5.59751023612868,-5.55618918067422,0.0413210554544587
+"11212205000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-6.26262459682344,-6.21962721857166,0.0429973782517781
+"11212207000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",2.07898333424384,1.72361694033962,-0.35536639390422
+"11212210000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",1.69246990304416,1.40276539956813,-0.289704503476038
+"11212404000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-6.33645280272299,-6.64998266536738,-0.313529862644392
+"11212416000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-1.91954059014264,-2.17145613605184,-0.251915545909199
+"11216911000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-1.43391613504559,-1.39586576542143,0.0380503696241643
+"12414606000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-6.91922528107096,-7.25848785426101,-0.339262573190052
+"20811307000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-7.7840530628957,-7.83660350448635,-0.052550441590645
+"20811412000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-7.53902153085259,-7.70578497103125,-0.166763440178661
+"23015706000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-4.90953473941818,-5.23695101211394,-0.327416272695761
+"23015707000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-4.83163395792694,-5.06972881992613,-0.238094861999194
+"23015712000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-5.6066080821095,-5.93208305210974,-0.32547497000024
+"23016031000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.03916932081302,-8.28143348777825,-0.242264166965228
+"23216402000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-12.1890074323838,-12.4511367294802,-0.262129297096408
+"23216412000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-9.68102639060296,-9.9131209140079,-0.232094523404935
+"23216416000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-12.2783775095276,-12.5146303109919,-0.236252801464246
+"23216418000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-11.7959004148082,-11.9467144109669,-0.150813996158718
+"30210204000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.1125359255165,-10.3487446193538,-0.23620869383732
+"31613209000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-5.21946643567895,-5.58040311881494,-0.360936683135991
+"40410702000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-4.90075159429112,-5.18069444975588,-0.279942855464764
+"40410704000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-6.43039211212723,-6.65069546957154,-0.220303357444303
+"40410705000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-6.49696693172908,-6.74716171307736,-0.250194781348275
+"40410706000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-4.30819169754208,-4.57188738250518,-0.263695684963103
+"40410712000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.39185363675364,-8.64402280151763,-0.252169164763995
+"40410717000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-7.45855767191868,-7.70463828283457,-0.246080610915892
+"40410808000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-7.07847400372444,-7.34042687031317,-0.261952866588723
+"40410811000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.0667735450104,-10.3860827728154,-0.319309227805029
+"40410818000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-7.72335259661308,-7.8960061063187,-0.172653509705615
+"40416709000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.10163607915119,-8.29424293424183,-0.192606855090645
+"40416710000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-6.90918486084363,-7.22492023664606,-0.315735375802431
+"40416719000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.22167718682343,-8.48174388525028,-0.260066698426852
+"40416813000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.85609151486713,-9.06245289242739,-0.206361377560263
+"40416816000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.93396370150156,-9.17624992228025,-0.242286220778688
+"42214101000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-7.00680424913702,-7.24108266718555,-0.234278418048532
+"42214216000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.09907859335521,-8.36712001379204,-0.268041420436823
+"42217206000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-5.18376973083909,-5.13285864010059,0.0509110907384986
+"42815402000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-11.8880994410618,-12.1797783279536,-0.291678886891749
+"42815403000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.0490702145693,-10.4043704470332,-0.355300232463836
+"42815404000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.91455489234249,-9.2102266536926,-0.295671761350103
+"42815407000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-7.35218761664293,-7.66965478391301,-0.317467167270078
+"42815412000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-6.75095926946189,-7.04081814963214,-0.289858880170257
+"42815415000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.98872475292794,-9.25854207245934,-0.269817319531398
+"42815513000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-9.77305358531578,-9.99933522754088,-0.226281642225096
+"42815516000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.7899599242987,-11.0360184814012,-0.24605855710243
+"42815518000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.7669335772107,-11.0328793182578,-0.26594574104708
+"42815519000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-13.8850245830991,-14.1765902170655,-0.291565633966446
+"42815601000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-13.0757726517908,-13.2912353688555,-0.215462717064748
+"42815608000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-14.2572465931192,-14.6066126484292,-0.349366055309964
+"42815609000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-9.83824572137081,-10.0841940094059,-0.24594828803513
+"42815611000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-9.44714413575382,-9.65758660302628,-0.210442467272458
+"42815617000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-9.1948694340096,-9.50043516625174,-0.30556573224214
+"51011521000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-5.44392778541542,-5.38968211662773,0.0542456687876953
+"51011707000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.81120712336912,-9.14868277055788,-0.337475647188761
+"51011710000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-5.86093988370349,-6.09117029276002,-0.230230409056524
+"51011712000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.05347476859587,-8.01235595075624,0.0411188178396245
+"51011716000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.26767369401651,-8.23282659768436,0.0348470963321503
+"51011803000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-7.89697553749731,-7.8505555989168,0.0464199385805077
+"51011814000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-7.96694872413779,-7.91064704630667,0.0563016778311205
+"51011817000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.24173044670886,-8.19993398316711,0.041796463541754
+"51011818000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-5.44148349795022,-5.65783808856309,-0.216354590612871
+"51011904000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.2233111155075,-10.1867704139818,0.0365407015256807
+"51011905000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.45256490506562,-8.47264316062876,-0.0200782555631331
+"51011915000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-4.0481256879896,-4.22251098916286,-0.174385301173261
+"52615204000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-1.68205133652343,-1.64556827172719,0.0364830647962422
+"52615205000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-11.6697729409764,-11.6060219318392,0.0637510091372668
+"52615301000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.2402188780271,-10.1849502091093,0.0552686689178294
+"52615303000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.6149902701887,-10.8613134730527,-0.246323202863966
+"52615306000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-11.5273083475179,-11.7893384024537,-0.262030054935838
+"52615308000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-11.9855639179252,-11.9491495167651,0.0364144011600729
+"52615313000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.2678712734604,-10.4618108381164,-0.193939564656018
+"60610901000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.67821102229093,-8.89647383487913,-0.218262812588204
+"60610913000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-11.8015978274505,-11.8981649416509,-0.0965671142003899
+"60610915000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-9.65334414732486,-9.61480358941298,0.0385405579118743
+"60610919000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-13.2351755361179,-13.592836093733,-0.357660557615116
+"60611002000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-9.38354707009947,-9.70287835171796,-0.319331281618489
+"60611003000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.92488527600696,-9.04986688416043,-0.124981608153472
+"60611004000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-14.3060030828529,-14.6157160662476,-0.309712983394704
+"60611006000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-13.937414627158,-13.957536990348,-0.0201223631900511
+"60611018000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.4899176251262,-10.5100951228499,-0.0201774977237044
+"60611020000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.79120465440321,-9.07880245158277,-0.287597797179551
+"60611108000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-9.26741364066501,-9.39614418750446,-0.128730546839455
+"60611109000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-0.263052805307277,-0.208099145267364,0.0549536600399129
+"60611205000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.1322697850317,-10.0825032233717,0.0497665616600145
+"60611207000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-11.5481613446034,-11.50935614093,0.0388052036734017
+"60611211000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-7.10643327996486,-7.31122263607908,-0.204789356114226
+"60611216000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-9.562042192716,-9.89727881072751,-0.335236618011507
+"61813302000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.64598864354728,-8.59285215389641,0.0531364896508766
+"61813305000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-7.49639135874053,-7.45099340216658,0.0453979565739537
+"61813307000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-7.24257629315396,-7.33862514273802,-0.0960488495840597
+"61813317000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-9.21080807200213,-9.16224367615004,0.0485643958520914
+"61813409000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.6404842302641,-10.7256722614833,-0.0851880312191184
+"61813413000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-7.29733245274056,-7.57693347409669,-0.279601021356122
+"61813414000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-7.60928622637376,-7.57254578942903,0.0367404369447248
+"61813506000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-4.57601594687181,-4.88575098407998,-0.309735037208172
+"61813510000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-1.67133853601674,-1.6160711181968,0.0552674178199402
+"61813516000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",2.11248957451268,1.78322021437524,-0.329269360137445
+"61813519000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-6.35699514244298,-6.7029310296745,-0.34593588723152
+"61813608000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-7.41463527387879,-7.37529577429075,0.0393394995880376
+"61813612000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.01584368383246,-8.32956056859225,-0.313716884759792
+"61813620000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-7.65516120854019,-7.89245583140213,-0.237294622861937
+"62013711000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-12.2751117616869,-12.6265183618529,-0.351406600166062
+"62013805000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-16.5060789811495,-16.4566249261716,0.0494540549778861
+"62013806000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.28345737263894,-8.49598449239441,-0.212527119755471
+"62013807000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-4.70723672199739,-4.85205037956185,-0.144813657564459
+"62013810000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-12.3517951750082,-12.7069961653115,-0.355200990303267
+"62013813000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.09208003501294,-8.43371396026099,-0.341633925248058
+"62013908000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.1439848292697,-10.3324664870212,-0.188481657751524
+"62013909000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-11.6096590860701,-11.5733757566929,0.0362833293772056
+"62013912000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-6.68037333048319,-6.82332287369924,-0.142949543216051
+"71422513000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-6.96583208545377,-7.25164295663203,-0.285810871178253
+"71422537000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.4755131373707,-10.6562075305267,-0.180694393155967
+"71422611000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.1191046335698,-10.480239801027,-0.361135167457139
+"71422615000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-3.76559068179367,-3.95405028573174,-0.188459603938066
+"71422622000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.0299256315588,-10.1587333667453,-0.128807735186564
+"71422709000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-12.3304759218311,-12.6798530040478,-0.349377082216694
+"71422723000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-11.3179413012446,-11.4788036449896,-0.160862343744977
+"71422725000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-5.15083545506907,-5.41867839118475,-0.267842936115677
+"71422730000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-9.37297890024112,-9.65487408530814,-0.281895185067018
+"71422736000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.73358418478061,-8.92625720131163,-0.192673016531019
+"71427004000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.8472776777586,-10.8088854740258,0.0383922037328048
+"71427019000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-5.9201365617993,-6.17806347320948,-0.257926911410177
+"71427027000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-9.29955797989172,-9.58143111114527,-0.281873131253555
+"71427110000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.1314131582336,-10.4051461638763,-0.273733005642633
+"71427126000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-4.24044334571676,-4.39521713561364,-0.154773789896879
+"71427129000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.9280014506208,-11.143607517473,-0.215606066852244
+"71427133000","lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.39885683451257,-8.70249229096592,-0.303635456453343
+"11212014000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-5.59751023612868,-5.36672390246416,0.230786333664518
+"11212205000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-6.26262459682344,-6.03183826315893,0.230786333664511
+"11212207000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",2.07898333424384,2.30976966790835,0.230786333664514
+"11212210000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",1.69246990304416,1.95148411436046,0.259014211316296
+"11212404000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-6.33645280272299,-6.02501539005337,0.311437412669621
+"11212416000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-1.91954059014264,-1.68875425647813,0.230786333664511
+"11216911000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-1.43391613504559,-1.20312980138108,0.230786333664511
+"12414606000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-6.91922528107096,-6.66021106975466,0.259014211316298
+"20811307000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.7840530628957,-7.55326672923119,0.230786333664511
+"20811412000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.53902153085259,-7.28000731953629,0.2590142113163
+"23015706000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-4.90953473941818,-4.67874840575367,0.230786333664511
+"23015707000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-4.83163395792694,-4.67008352436178,0.161550433565161
+"23015712000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-5.6066080821095,-5.53737218201015,0.0692359000993541
+"23016031000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.03916932081302,-7.80838298714851,0.23078633366451
+"23216402000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-12.1890074323838,-11.8775700197142,0.311437412669626
+"23216412000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-9.68102639060296,-9.36958897793334,0.311437412669621
+"23216416000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-12.2783775095276,-11.966940096858,0.311437412669619
+"23216418000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-11.7959004148082,-11.4844630021386,0.311437412669619
+"30210204000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.1125359255165,-9.80109851284684,0.311437412669621
+"31613209000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-5.21946643567895,-4.96448477831291,0.254981657366045
+"40410702000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-4.90075159429112,-4.66996526062661,0.230786333664511
+"40410704000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-6.43039211212723,-6.11895469945761,0.311437412669619
+"40410705000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-6.49696693172908,-6.18552951905945,0.31143741266963
+"40410706000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-4.30819169754208,-3.99675428487246,0.31143741266962
+"40410712000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.39185363675364,-8.08041622408401,0.311437412669621
+"40410717000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.45855767191868,-7.14712025924905,0.311437412669628
+"40410808000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.07847400372444,-6.76703659105482,0.311437412669621
+"40410811000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.0667735450104,-9.7553361323408,0.311437412669623
+"40410818000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.72335259661308,-7.41191518394346,0.311437412669619
+"40416709000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.10163607915119,-7.79019866648157,0.31143741266962
+"40416710000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-6.90918486084363,-6.597747448174,0.311437412669621
+"40416719000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.22167718682343,-7.91023977415381,0.311437412669622
+"40416813000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.85609151486713,-8.54465410219751,0.311437412669619
+"40416816000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.93396370150156,-8.62252628883194,0.311437412669621
+"42214101000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.00680424913702,-6.71149705226842,0.295307196868597
+"42214216000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.09907859335521,-7.8682922596907,0.230786333664515
+"42217206000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-5.18376973083909,-4.94491828927406,0.238851441565023
+"42815402000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-11.8880994410618,-11.5766620283922,0.311437412669623
+"42815403000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.0490702145693,-9.73763280189972,0.311437412669621
+"42815404000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.91455489234249,-8.60311747967287,0.311437412669623
+"42815407000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.35218761664293,-7.12140128297842,0.230786333664511
+"42815412000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-6.75095926946189,-6.43952185679227,0.311437412669621
+"42815415000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.98872475292794,-8.67728734025832,0.311437412669621
+"42815513000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-9.77305358531578,-9.46161617264616,0.311437412669623
+"42815516000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.7899599242987,-10.4785225116291,0.311437412669623
+"42815518000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.7669335772107,-10.4958217040436,0.271111873167065
+"42815519000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-13.8850245830991,-13.5735871704295,0.311437412669623
+"42815601000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-13.0757726517908,-12.7643352391212,0.311437412669623
+"42815608000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-14.2572465931192,-13.9458091804496,0.311437412669623
+"42815609000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-9.83824572137081,-9.52680830870119,0.311437412669621
+"42815611000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-9.44714413575382,-9.21635780208931,0.230786333664511
+"42815617000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-9.1948694340096,-8.88343202133998,0.311437412669619
+"51011521000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-5.44392778541542,-5.21314145175091,0.230786333664511
+"51011707000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.81120712336912,-8.51589992650052,0.295307196868599
+"51011710000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-5.86093988370349,-5.63015355003898,0.230786333664511
+"51011712000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.05347476859587,-7.82268843493135,0.230786333664516
+"51011716000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.26767369401651,-7.9784153280733,0.289258365943215
+"51011803000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.89697553749731,-7.62586366433024,0.271111873167072
+"51011814000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.96694872413779,-7.73616239047328,0.230786333664511
+"51011817000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.24173044670886,-8.01094411304435,0.230786333664511
+"51011818000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-5.44148349795022,-5.2106971642857,0.230786333664511
+"51011904000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.2233111155075,-9.99252478184295,0.230786333664515
+"51011905000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.45256490506562,-8.22177857140111,0.230786333664511
+"51011915000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-4.0481256879896,-3.82887867100831,0.219247016981285
+"52615204000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-1.68205133652343,-1.45126500285892,0.230786333664511
+"52615205000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-11.6697729409764,-11.3583355283068,0.311437412669626
+"52615301000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.2402188780271,-10.0209718610458,0.219247016981285
+"52615303000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.6149902701887,-10.3035528575191,0.311437412669621
+"52615306000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-11.5273083475179,-11.2158709348483,0.311437412669619
+"52615308000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-11.9855639179252,-11.7547775842606,0.230786333664511
+"52615313000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.2678712734604,-10.0370849397958,0.230786333664511
+"60610901000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.67821102229093,-8.36677360962131,0.311437412669619
+"60610913000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-11.8015978274505,-11.522420846383,0.279176981067577
+"60610915000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-9.65334414732486,-9.42255781366035,0.230786333664511
+"60610919000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-13.2351755361179,-12.9237381234483,0.311437412669623
+"60611002000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-9.38354707009947,-9.15276073643495,0.230786333664515
+"60611003000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.92488527600696,-8.61344786333734,0.311437412669621
+"60611004000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-14.3060030828529,-13.9945656701833,0.311437412669623
+"60611006000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-13.937414627158,-13.6259772144884,0.311437412669619
+"60611018000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.4899176251262,-10.200659259183,0.289258365943216
+"60611020000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.79120465440321,-8.47976724173359,0.311437412669621
+"60611108000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-9.26741364066501,-8.95597622799539,0.311437412669621
+"60611109000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-0.263052805307277,-0.0322664716427654,0.230786333664511
+"60611205000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.1322697850317,-9.82083237236212,0.311437412669623
+"60611207000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-11.5481613446034,-11.2367239319338,0.311437412669619
+"60611211000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.10643327996486,-6.8987255796668,0.207707700298059
+"60611216000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-9.562042192716,-9.33125585905149,0.230786333664511
+"61813302000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.64598864354728,-8.33455123087766,0.311437412669621
+"61813305000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.49639135874053,-7.18495394607091,0.311437412669621
+"61813307000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.24257629315396,-6.99767602066356,0.244900272490405
+"61813317000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-9.21080807200213,-8.90340321328277,0.307404858719366
+"61813409000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.6404842302641,-10.3290468175945,0.311437412669619
+"61813413000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.29733245274056,-6.98589504007094,0.311437412669624
+"61813414000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.60928622637376,-7.29784881370414,0.311437412669621
+"61813506000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-4.57601594687181,-4.30087151975449,0.275144427117322
+"61813510000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-1.67133853601674,-1.35990112334712,0.311437412669621
+"61813516000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",2.11248957451268,2.35537357002796,0.242883995515276
+"61813519000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-6.35699514244298,-6.04555772977336,0.311437412669623
+"61813608000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.41463527387879,-7.10319786120917,0.311437412669621
+"61813612000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.01584368383246,-7.70440627116284,0.311437412669621
+"61813620000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.65516120854019,-7.40824465907466,0.246916549465533
+"62013711000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-12.2751117616869,-11.9636743490173,0.311437412669621
+"62013805000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-16.5060789811495,-16.2067392303307,0.299339750818856
+"62013806000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.28345737263894,-7.97201995996932,0.311437412669624
+"62013807000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-4.70723672199739,-4.47645038833288,0.230786333664511
+"62013810000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-12.3517951750082,-12.1210088413437,0.230786333664511
+"62013813000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.09208003501294,-7.85726114739817,0.234818887614766
+"62013908000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.1439848292697,-9.90916594165492,0.234818887614766
+"62013909000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-11.6096590860701,-11.2982216734004,0.311437412669623
+"62013912000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-6.68037333048319,-6.44958699681868,0.230786333664511
+"71422513000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-6.96583208545377,-6.73504575178926,0.230786333664511
+"71422537000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.4755131373707,-10.1640757247011,0.311437412669624
+"71422611000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.1191046335698,-9.80766722090019,0.311437412669621
+"71422615000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-3.76559068179367,-3.4581858230743,0.307404858719366
+"71422622000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.0299256315588,-9.71848821888915,0.311437412669623
+"71422709000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-12.3304759218311,-12.0190385091615,0.311437412669623
+"71422723000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-11.3179413012446,-11.006503888575,0.311437412669621
+"71422725000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-5.15083545506907,-4.83939804239945,0.311437412669621
+"71422730000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-9.37297890024112,-9.0615414875715,0.311437412669624
+"71422736000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.73358418478061,-8.42214677211098,0.311437412669628
+"71427004000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.8472776777586,-10.535840265089,0.311437412669621
+"71427019000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-5.9201365617993,-5.60869914912968,0.311437412669622
+"71427027000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-9.29955797989172,-8.9881205672221,0.311437412669623
+"71427110000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.1314131582336,-9.90062682456911,0.230786333664511
+"71427126000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-4.24044334571676,-4.00965701205225,0.230786333664511
+"71427129000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.9280014506208,-10.6972151169563,0.230786333664511
+"71427133000","bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.39885683451257,-8.16807050084806,0.230786333664511
+"11212014000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-5.59751023612868,-5.43579870185159,0.161711534277096
+"11212205000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-6.26262459682344,-6.10091306254635,0.161711534277089
+"11212207000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",2.07898333424384,2.24069486852093,0.161711534277091
+"11212210000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",1.69246990304416,1.85418143732125,0.161711534277089
+"11212404000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-6.33645280272299,-6.1747412684459,0.161711534277089
+"11212416000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-1.91954059014264,-1.75782905586555,0.161711534277092
+"11216911000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-1.43391613504559,-1.2722046007685,0.161711534277091
+"12414606000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-6.91922528107096,-6.75751374679387,0.161711534277092
+"20811307000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.7840530628957,-7.62234152861861,0.161711534277096
+"20811412000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.53902153085259,-7.3773099965755,0.161711534277089
+"23015706000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-4.90953473941818,-4.74782320514109,0.161711534277092
+"23015707000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-4.83163395792694,-4.66992242364985,0.161711534277092
+"23015712000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-5.6066080821095,-5.44489654783241,0.161711534277092
+"23016031000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.03916932081302,-7.87745778653594,0.161711534277088
+"23216402000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-12.1890074323838,-12.0272958981067,0.161711534277089
+"23216412000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-9.68102639060296,-9.51931485632588,0.161711534277089
+"23216416000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-12.2783775095276,-12.1166659752505,0.161711534277089
+"23216418000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-11.7959004148082,-11.6341888805311,0.161711534277096
+"30210204000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.1125359255165,-9.95082439123937,0.161711534277096
+"31613209000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-5.21946643567895,-5.05775490140186,0.161711534277092
+"40410702000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-4.90075159429112,-4.73904006001403,0.161711534277091
+"40410704000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-6.43039211212723,-6.26868057785014,0.161711534277094
+"40410705000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-6.49696693172908,-6.33525539745198,0.161711534277098
+"40410706000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-4.30819169754208,-4.14648016326499,0.161711534277089
+"40410712000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.39185363675364,-8.23014210247655,0.161711534277089
+"40410717000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.45855767191868,-7.29684613764159,0.161711534277096
+"40410808000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.07847400372444,-6.91676246944735,0.161711534277089
+"40410811000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.0667735450104,-9.90506201073333,0.161711534277089
+"40410818000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.72335259661308,-7.56164106233599,0.161711534277092
+"40416709000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.10163607915119,-7.93992454487409,0.161711534277097
+"40416710000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-6.90918486084363,-6.74747332656654,0.161711534277089
+"40416719000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.22167718682343,-8.05996565254634,0.161711534277085
+"40416813000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.85609151486713,-8.69437998059004,0.161711534277089
+"40416816000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.93396370150156,-8.77225216722446,0.161711534277096
+"42214101000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.00680424913702,-6.84509271485993,0.161711534277087
+"42214216000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.09907859335521,-7.93736705907812,0.161711534277092
+"42217206000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-5.18376973083909,-5.022058196562,0.161711534277089
+"42815402000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-11.8880994410618,-11.7263879067847,0.161711534277094
+"42815403000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.0490702145693,-9.88735868029224,0.161711534277096
+"42815404000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.91455489234249,-8.7528433580654,0.161711534277096
+"42815407000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.35218761664293,-7.19047608236584,0.161711534277092
+"42815412000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-6.75095926946189,-6.5892477351848,0.161711534277092
+"42815415000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.98872475292794,-8.82701321865085,0.161711534277089
+"42815513000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-9.77305358531578,-9.6113420510387,0.161711534277089
+"42815516000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.7899599242987,-10.6282483900216,0.161711534277096
+"42815518000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.7669335772107,-10.6052220429336,0.161711534277089
+"42815519000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-13.8850245830991,-13.723313048822,0.161711534277089
+"42815601000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-13.0757726517908,-12.9140611175137,0.161711534277089
+"42815608000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-14.2572465931192,-14.0955350588421,0.161711534277096
+"42815609000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-9.83824572137081,-9.67653418709372,0.161711534277089
+"42815611000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-9.44714413575382,-9.28543260147673,0.161711534277089
+"42815617000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-9.1948694340096,-9.03315789973251,0.161711534277089
+"51011521000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-5.44392778541542,-5.28221625113833,0.161711534277096
+"51011707000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.81120712336912,-8.64949558909203,0.161711534277089
+"51011710000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-5.86093988370349,-5.6992283494264,0.161711534277089
+"51011712000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.05347476859587,-7.89176323431877,0.161711534277093
+"51011716000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.26767369401651,-8.10596215973942,0.161711534277096
+"51011803000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.89697553749731,-7.73526400322022,0.161711534277092
+"51011814000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.96694872413779,-7.8052371898607,0.161711534277089
+"51011817000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.24173044670886,-8.08001891243177,0.161711534277096
+"51011818000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-5.44148349795022,-5.27977196367313,0.161711534277089
+"51011904000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.2233111155075,-10.0615995812304,0.161711534277092
+"51011905000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.45256490506562,-8.29085337078853,0.161711534277096
+"51011915000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-4.0481256879896,-3.90769196437937,0.140433723610224
+"52615204000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-1.68205133652343,-1.52033980224634,0.161711534277091
+"52615205000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-11.6697729409764,-11.5080614066993,0.161711534277092
+"52615301000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.2402188780271,-10.07850734375,0.161711534277092
+"52615303000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.6149902701887,-10.4532787359116,0.161711534277092
+"52615306000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-11.5273083475179,-11.3655968132408,0.161711534277089
+"52615308000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-11.9855639179252,-11.8238523836481,0.161711534277092
+"52615313000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.2678712734604,-10.1061597391833,0.161711534277089
+"60610901000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.67821102229093,-8.51649948801383,0.161711534277096
+"60610913000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-11.8015978274505,-11.6398862931735,0.161711534277092
+"60610915000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-9.65334414732486,-9.49163261304777,0.161711534277089
+"60610919000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-13.2351755361179,-13.0734640018408,0.161711534277089
+"60611002000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-9.38354707009947,-9.22183553582238,0.161711534277092
+"60611003000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.92488527600696,-8.76317374172987,0.161711534277089
+"60611004000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-14.3060030828529,-14.1442915485758,0.161711534277089
+"60611006000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-13.937414627158,-13.7757030928809,0.161711534277089
+"60611018000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.4899176251262,-10.3282060908491,0.161711534277096
+"60611020000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.79120465440321,-8.62949312012612,0.161711534277096
+"60611108000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-9.26741364066501,-9.10570210638792,0.161711534277089
+"60611109000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-0.263052805307277,-0.101341271030184,0.161711534277092
+"60611205000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.1322697850317,-9.97055825075465,0.161711534277092
+"60611207000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-11.5481613446034,-11.3864498103263,0.161711534277089
+"60611211000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.10643327996486,-6.94472174568777,0.161711534277085
+"60611216000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-9.562042192716,-9.40033065843891,0.161711534277085
+"61813302000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.64598864354728,-8.4842771092702,0.161711534277089
+"61813305000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.49639135874053,-7.33467982446344,0.161711534277092
+"61813307000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.24257629315396,-7.08086475887687,0.161711534277089
+"61813317000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-9.21080807200213,-9.04909653772504,0.161711534277096
+"61813409000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.6404842302641,-10.478772695987,0.161711534277096
+"61813413000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.29733245274056,-7.13562091846347,0.161711534277092
+"61813414000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.60928622637376,-7.44757469209667,0.161711534277092
+"61813506000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-4.57601594687181,-4.41430441259472,0.161711534277096
+"61813510000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-1.67133853601674,-1.50962700173965,0.161711534277091
+"61813516000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",2.11248957451268,2.27420110878977,0.161711534277088
+"61813519000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-6.35699514244298,-6.19528360816589,0.161711534277098
+"61813608000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.41463527387879,-7.25292373960169,0.161711534277092
+"61813612000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.01584368383246,-7.85413214955537,0.161711534277092
+"61813620000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.65516120854019,-7.4934496742631,0.161711534277089
+"62013711000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-12.2751117616869,-12.1134002274098,0.161711534277096
+"62013805000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-16.5060789811495,-16.3957793738646,0.110299607284901
+"62013806000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.28345737263894,-8.12174583836185,0.161711534277092
+"62013807000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-4.70723672199739,-4.54552518772029,0.161711534277094
+"62013810000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-12.3517951750082,-12.1900836407311,0.161711534277092
+"62013813000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.09208003501294,-7.93036850073584,0.161711534277096
+"62013908000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.1439848292697,-9.98227329499259,0.161711534277092
+"62013909000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-11.6096590860701,-11.447947551793,0.161711534277085
+"62013912000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-6.68037333048319,-6.5186617962061,0.161711534277096
+"71422513000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-6.96583208545377,-6.80412055117668,0.161711534277096
+"71422537000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.4755131373707,-10.3138016030936,0.161711534277092
+"71422611000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.1191046335698,-9.95739309929272,0.161711534277096
+"71422615000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-3.76559068179367,-3.60387914751658,0.161711534277089
+"71422622000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.0299256315588,-9.86821409728168,0.161711534277092
+"71422709000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-12.3304759218311,-12.168764387554,0.161711534277092
+"71422723000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-11.3179413012446,-11.1562297669675,0.161711534277096
+"71422725000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-5.15083545506907,-4.98912392079198,0.161711534277091
+"71422730000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-9.37297890024112,-9.21126736596403,0.161711534277092
+"71422736000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.73358418478061,-8.57187265050352,0.161711534277092
+"71427004000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.8472776777586,-10.6855661434815,0.161711534277092
+"71427019000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-5.9201365617993,-5.75842502752221,0.161711534277091
+"71427027000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-9.29955797989172,-9.13784644561463,0.161711534277092
+"71427110000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.1314131582336,-9.96970162395653,0.161711534277089
+"71427126000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-4.24044334571676,-4.07873181143967,0.161711534277092
+"71427129000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.9280014506208,-10.7662899163437,0.161711534277092
+"71427133000","inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.39885683451257,-8.23714530023548,0.161711534277096
+"11212014000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-5.59751023612868,-5.74574738274758,-0.1482371466189
+"11212205000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-6.26262459682344,-6.41086174344234,-0.148237146618902
+"11212207000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",2.07898333424384,1.93074618762493,-0.148237146618902
+"11212210000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",1.69246990304416,1.54423275642526,-0.148237146618904
+"11212404000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-6.33645280272299,-6.4846899493419,-0.148237146618905
+"11212416000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-1.91954059014264,-2.06777773676155,-0.148237146618901
+"11216911000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-1.43391613504559,-1.5821532816645,-0.148237146618905
+"12414606000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-6.91922528107096,-7.06746242768986,-0.148237146618904
+"20811307000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.7840530628957,-7.93229020951461,-0.148237146618902
+"20811412000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.53902153085259,-7.63834041908726,-0.0993188882346701
+"23015706000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-4.90953473941818,-4.94955876900528,-0.0400240295871033
+"23015707000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-4.83163395792694,-4.97987110454585,-0.148237146618905
+"23015712000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-5.6066080821095,-5.75484522872841,-0.148237146618902
+"23016031000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.03916932081302,-8.16072378104053,-0.121554460227504
+"23216402000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-12.1890074323838,-12.2823968347537,-0.09338940236991
+"23216412000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-9.68102639060296,-9.82926353722187,-0.148237146618902
+"23216416000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-12.2783775095276,-12.3020954529866,-0.0237179434590296
+"23216418000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-11.7959004148082,-11.9441375614271,-0.148237146618902
+"30210204000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.1125359255165,-10.2607730721354,-0.148237146618902
+"31613209000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-5.21946643567895,-5.31137346658267,-0.0919070309037213
+"40410702000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-4.90075159429112,-5.04898874091002,-0.148237146618905
+"40410704000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-6.43039211212723,-6.57862925874614,-0.148237146618907
+"40410705000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-6.49696693172908,-6.64520407834798,-0.1482371466189
+"40410706000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-4.30819169754208,-4.45642884416099,-0.148237146618905
+"40410712000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.39185363675364,-8.54009078337254,-0.148237146618905
+"40410717000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.45855767191868,-7.60679481853758,-0.148237146618903
+"40410808000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.07847400372444,-7.28478255398307,-0.206308550258629
+"40410811000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.0667735450104,-10.2150106916293,-0.148237146618905
+"40410818000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.72335259661308,-7.87158974323199,-0.148237146618907
+"40416709000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.10163607915119,-8.24987322577009,-0.148237146618904
+"40416710000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-6.90918486084363,-7.05742200746253,-0.148237146618905
+"40416719000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.22167718682343,-8.36991433344233,-0.148237146618902
+"40416813000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.85609151486713,-9.00432866148603,-0.148237146618904
+"40416816000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.93396370150156,-9.08220084812046,-0.148237146618902
+"42214101000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.00680424913702,-7.11353499470263,-0.106730745565613
+"42214216000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.09907859335521,-8.24731573997412,-0.148237146618905
+"42217206000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-5.18376973083909,-5.31570079132991,-0.131931060490826
+"42815402000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-11.8880994410618,-12.0363365876807,-0.148237146618898
+"42815403000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.0490702145693,-10.1973073611882,-0.148237146618902
+"42815404000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.91455489234249,-9.06279203896139,-0.1482371466189
+"42815407000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.35218761664293,-7.44261227608047,-0.0904246594375344
+"42815412000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-6.75095926946189,-6.89919641608079,-0.148237146618905
+"42815415000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.98872475292794,-9.11176158462164,-0.123036831693696
+"42815513000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-9.77305358531578,-9.92129073193469,-0.148237146618907
+"42815516000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.7899599242987,-10.9381970709176,-0.1482371466189
+"42815518000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.7669335772107,-10.9151707238296,-0.148237146618909
+"42815519000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-13.8850245830991,-14.033261729718,-0.148237146618911
+"42815601000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-13.0757726517908,-13.2240097984097,-0.148237146618907
+"42815608000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-14.2572465931192,-14.4054837397381,-0.1482371466189
+"42815609000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-9.83824572137081,-9.98648286798972,-0.148237146618905
+"42815611000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-9.44714413575382,-9.59538128237273,-0.148237146618905
+"42815617000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-9.1948694340096,-9.34310658062851,-0.148237146618914
+"51011521000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-5.44392778541542,-5.59216493203432,-0.1482371466189
+"51011707000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.81120712336912,-8.95944426998802,-0.148237146618907
+"51011710000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-5.86093988370349,-6.12531983760185,-0.264379953898359
+"51011712000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.05347476859587,-8.20171191521477,-0.148237146618904
+"51011716000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.26767369401651,-8.41591084063542,-0.148237146618902
+"51011803000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.89697553749731,-8.04521268411621,-0.148237146618899
+"51011814000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.96694872413779,-8.11518587075669,-0.148237146618902
+"51011817000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.24173044670886,-8.38996759332777,-0.148237146618904
+"51011818000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-5.44148349795022,-5.58972064456912,-0.148237146618903
+"51011904000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.2233111155075,-10.3715482621264,-0.148237146618905
+"51011905000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.45256490506562,-8.60080205168453,-0.148237146618902
+"51011915000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-4.0481256879896,-4.77707687100577,-0.728951183016175
+"52615204000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-1.68205133652343,-1.83028848314234,-0.148237146618906
+"52615205000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-11.6697729409764,-11.8180100875953,-0.148237146618904
+"52615301000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.2402188780271,-10.388456024646,-0.148237146618904
+"52615303000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.6149902701887,-11.0187415928224,-0.403751322633704
+"52615306000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-11.5273083475179,-11.7394240381405,-0.212115690622607
+"52615308000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-11.9855639179252,-12.1338010645441,-0.148237146618904
+"52615313000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.2678712734604,-10.4161084200793,-0.148237146618909
+"60610901000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.67821102229093,-8.82644816890983,-0.148237146618904
+"60610913000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-11.8015978274505,-11.9498349740694,-0.148237146618905
+"60610915000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-9.65334414732486,-9.80158129394377,-0.148237146618909
+"60610919000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-13.2351755361179,-13.3834126827368,-0.1482371466189
+"60611002000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-9.38354707009947,-9.53178421671837,-0.148237146618902
+"60611003000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.92488527600696,-9.54930793247162,-0.624422656464663
+"60611004000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-14.3060030828529,-14.4542402294718,-0.1482371466189
+"60611006000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-13.937414627158,-14.0856517737769,-0.148237146618907
+"60611018000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.4899176251262,-10.6381547717451,-0.148237146618902
+"60611020000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.79120465440321,-9.52015583741939,-0.728951183016171
+"60611108000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-9.26741364066501,-9.41565078728392,-0.148237146618905
+"60611109000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-0.263052805307277,-0.992003988323452,-0.728951183016175
+"60611205000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.1322697850317,-10.6057067920331,-0.473437007001376
+"60611207000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-11.5481613446034,-11.6963984912223,-0.148237146618904
+"60611211000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.10643327996486,-7.25467042658377,-0.148237146618909
+"60611216000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-9.562042192716,-9.7102793393349,-0.148237146618905
+"61813302000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.64598864354728,-8.79422579016619,-0.148237146618905
+"61813305000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.49639135874053,-7.64462850535944,-0.148237146618905
+"61813307000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.24257629315396,-7.39081343977286,-0.148237146618902
+"61813317000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-9.21080807200213,-9.31902118903393,-0.1082131170318
+"61813409000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.6404842302641,-10.7620386904916,-0.121554460227504
+"61813413000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.29733245274056,-7.44556959935947,-0.148237146618902
+"61813414000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.60928622637376,-7.66709871355513,-0.0578124871813719
+"61813506000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-4.57601594687181,-4.72425309349071,-0.148237146618902
+"61813510000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-1.67133853601674,-1.67133853601674,0
+"61813516000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",2.11248957451268,1.9879703713528,-0.124519203159881
+"61813519000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-6.35699514244298,-6.50523228906188,-0.148237146618902
+"61813608000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.41463527387879,-7.56287242049769,-0.148237146618902
+"61813612000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.01584368383246,-8.16408083045137,-0.148237146618905
+"61813620000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-7.65516120854019,-7.80339835515909,-0.148237146618902
+"62013711000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-12.2751117616869,-12.4233489083058,-0.148237146618902
+"62013805000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-16.5060789811495,-16.6543161277684,-0.148237146618904
+"62013806000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.28345737263894,-8.5478373265373,-0.264379953898356
+"62013807000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-4.70723672199739,-5.43618790501356,-0.728951183016171
+"62013810000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-12.3517951750082,-12.5000323216271,-0.148237146618904
+"62013813000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.09208003501294,-8.39130283109513,-0.299222796082192
+"62013908000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.1439848292697,-10.2922219758886,-0.148237146618905
+"62013909000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-11.6096590860701,-12.2805388654465,-0.670879779376449
+"62013912000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-6.68037333048319,-6.8286104771021,-0.148237146618904
+"71422513000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-6.96583208545377,-7.11406923207267,-0.148237146618902
+"71422537000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.4755131373707,-10.7282788105411,-0.25276567317041
+"71422611000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.1191046335698,-10.6970701671227,-0.577965533552881
+"71422615000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-3.76559068179367,-4.1228848815156,-0.357294199721926
+"71422622000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.0299256315588,-10.1781627781777,-0.148237146618905
+"71422709000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-12.3304759218311,-13.0594271048472,-0.728951183016175
+"71422723000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-11.3179413012446,-11.4661784478635,-0.148237146618902
+"71422725000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-5.15083545506907,-5.29907260168798,-0.148237146618905
+"71422730000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-9.37297890024112,-9.63735885413948,-0.264379953898356
+"71422736000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.73358418478061,-9.12572122668637,-0.392137041905755
+"71427004000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.8472776777586,-10.9955148243775,-0.148237146618905
+"71427019000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-5.9201365617993,-6.06837370841821,-0.148237146618907
+"71427027000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-9.29955797989172,-9.44779512651062,-0.148237146618904
+"71427110000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.1314131582336,-10.2796503048525,-0.148237146618911
+"71427126000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-4.24044334571676,-4.38868049233567,-0.148237146618905
+"71427129000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-10.9280014506208,-11.0762385972397,-0.148237146618904
+"71427133000","kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-8.39885683451257,-8.54709398113148,-0.148237146618902
+"11212014000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-5.59751023612868,-5.25344202360752,0.344068212521165
+"11212205000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-6.26262459682344,-6.06632571875134,0.196298878072094
+"11212207000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",2.07898333424384,2.38064631048567,0.301662976241831
+"11212210000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",1.69246990304416,1.89851796654954,0.206048063505382
+"11212404000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-6.33645280272299,-6.14414218337561,0.19231061934738
+"11212416000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-1.91954059014264,-1.73592705410912,0.183613536033525
+"11216911000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-1.43391613504559,-1.26401618130254,0.169899953743052
+"12414606000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-6.91922528107096,-6.72940135698932,0.189823924081641
+"20811307000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-7.7840530628957,-7.39276326036862,0.391289802527083
+"20811412000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-7.53902153085259,-7.16382041719715,0.375201113655444
+"23015706000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-4.90953473941818,-4.7449701384457,0.164564600972479
+"23015707000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-4.83163395792694,-4.59872243299016,0.232911524936783
+"23015712000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-5.6066080821095,-5.40731438048758,0.199293701621921
+"23016031000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.03916932081302,-7.81512997657322,0.2240393442398
+"23216402000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-12.1890074323838,-12.0511707009177,0.137836731466068
+"23216412000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-9.68102639060296,-9.21369179196968,0.467334598633286
+"23216416000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-12.2783775095276,-12.0211392204676,0.257238289060016
+"23216418000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-11.7959004148082,-11.6229067271564,0.172993687651742
+"30210204000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.1125359255165,-9.9425330483789,0.170002877137561
+"31613209000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-5.21946643567895,-5.1690415890285,0.0504248466504542
+"40410702000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-4.90075159429112,-4.73541068472933,0.165340909561785
+"40410704000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-6.43039211212723,-6.05622705427095,0.374165057856287
+"40410705000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-6.49696693172908,-6.1466770282884,0.350289903440684
+"40410706000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-4.30819169754208,-4.15929886637456,0.148892831167522
+"40410712000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.39185363675364,-8.24468789842581,0.147165738327827
+"40410717000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-7.45855767191868,-7.03612546927765,0.422432202641033
+"40410808000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-7.07847400372444,-6.84473108309564,0.233742920628805
+"40410811000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.0667735450104,-9.83156902839646,0.235204516613956
+"40410818000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-7.72335259661308,-7.55825956819967,0.165093028413414
+"40416709000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.10163607915119,-7.95543524047463,0.146200838676561
+"40416710000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-6.90918486084363,-6.52108846280973,0.388096398033895
+"40416719000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.22167718682343,-7.75234112827503,0.469336058548401
+"40416813000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.85609151486713,-8.62604777167981,0.230043743187316
+"40416816000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.93396370150156,-8.77724785181526,0.156715849686295
+"42214101000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-7.00680424913702,-6.7562866447538,0.250517604383218
+"42214216000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.09907859335521,-7.92735135432061,0.171727239034608
+"42217206000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-5.18376973083909,-5.03499771128756,0.148772019551528
+"42815402000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-11.8880994410618,-11.7089722044024,0.179127236659371
+"42815403000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.0490702145693,-9.87615528261728,0.172914931952061
+"42815404000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.91455489234249,-8.72937466762976,0.185180224712729
+"42815407000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-7.35218761664293,-7.17727966396244,0.174907952680488
+"42815412000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-6.75095926946189,-6.54878029440765,0.20217897505424
+"42815415000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.98872475292794,-8.56920225570084,0.419522497227099
+"42815513000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-9.77305358531578,-9.46760123895227,0.305452346363515
+"42815516000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.7899599242987,-10.5354245291011,0.254535395197648
+"42815518000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.7669335772107,-10.3956526350696,0.371280942141109
+"42815519000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-13.8850245830991,-13.6140140758291,0.271010507269983
+"42815601000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-13.0757726517908,-12.9281405363436,0.147632115447168
+"42815608000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-14.2572465931192,-14.0683727925806,0.18887380053858
+"42815609000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-9.83824572137081,-9.40229769309706,0.435948028273749
+"42815611000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-9.44714413575382,-9.14069105418094,0.306453081572881
+"42815617000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-9.1948694340096,-8.87568541439762,0.319184019611971
+"51011521000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-5.44392778541542,-5.15865990224493,0.285267883170491
+"51011707000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.81120712336912,-8.64175410004015,0.169453023328963
+"51011710000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-5.86093988370349,-5.62888444598525,0.232055437718241
+"51011712000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.05347476859587,-7.86215149208394,0.191323276511922
+"51011716000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.26767369401651,-7.86220896765623,0.405464726360287
+"51011803000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-7.89697553749731,-7.44296641245029,0.454009125047023
+"51011814000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-7.96694872413779,-7.79616034889101,0.170788375246775
+"51011817000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.24173044670886,-8.03255299896269,0.209177447746175
+"51011818000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-5.44148349795022,-5.24428974006713,0.197193757883083
+"51011904000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.2233111155075,-9.76677709766714,0.456534017840326
+"51011905000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.45256490506562,-8.16267043215285,0.289894472912778
+"51011915000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-4.0481256879896,-3.84315593336405,0.204969754625544
+"52615204000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-1.68205133652343,-1.59804377786099,0.0840075586624422
+"52615205000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-11.6697729409764,-11.2484697195781,0.421303221398325
+"52615301000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.2402188780271,-10.0600989753457,0.180119902681374
+"52615303000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.6149902701887,-10.2499292745415,0.365060995647239
+"52615306000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-11.5273083475179,-11.3610564031566,0.166251944361322
+"52615308000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-11.9855639179252,-11.5721734396758,0.413390478249326
+"52615313000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.2678712734604,-9.90658293832204,0.361288335138314
+"60610901000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.67821102229093,-8.42568848569743,0.252522536593501
+"60610913000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-11.8015978274505,-11.65868373434,0.142914093110548
+"60610915000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-9.65334414732486,-9.4835464802902,0.169797667034658
+"60610919000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-13.2351755361179,-13.0589777248241,0.176197811293804
+"60611002000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-9.38354707009947,-9.17804018622772,0.205506883871749
+"60611003000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.92488527600696,-8.74812967884575,0.176755597161213
+"60611004000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-14.3060030828529,-14.0232454162289,0.282757666624066
+"60611006000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-13.937414627158,-13.6757514623668,0.26166316479117
+"60611018000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.4899176251262,-10.2010619217148,0.288855703411402
+"60611020000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.79120465440321,-8.59424669201837,0.196957962384841
+"60611108000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-9.26741364066501,-8.89114474427216,0.376268896392855
+"60611109000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-0.263052805307277,-0.137905164962864,0.125147640344412
+"60611205000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.1322697850317,-9.9825588381617,0.149710946870039
+"60611207000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-11.5481613446034,-11.1887347596105,0.359426584992917
+"60611211000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-7.10643327996486,-6.90526181951419,0.201171460450666
+"60611216000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-9.562042192716,-9.39469246042771,0.167349732288287
+"61813302000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.64598864354728,-8.2451307874558,0.400857856091488
+"61813305000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-7.49639135874053,-7.34950820489755,0.146883153842983
+"61813307000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-7.24257629315396,-7.09803223987603,0.144544053277931
+"61813317000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-9.21080807200213,-9.04216134890463,0.168646723097506
+"61813409000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.6404842302641,-10.4178434196637,0.222640810600444
+"61813413000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-7.29733245274056,-7.1573987819494,0.139933670791165
+"61813414000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-7.60928622637376,-7.15858870880498,0.450697517568781
+"61813506000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-4.57601594687181,-4.18314257555927,0.392873371312547
+"61813510000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-1.67133853601674,-1.43944696705712,0.231891568959618
+"61813516000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",2.11248957451268,2.16448971731631,0.0520001428036281
+"61813519000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-6.35699514244298,-6.08033558303143,0.27665955941155
+"61813608000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-7.41463527387879,-6.94379986530904,0.470835408569748
+"61813612000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.01584368383246,-7.87286274384111,0.142980939991349
+"61813620000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-7.65516120854019,-7.50088742737573,0.154273781164464
+"62013711000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-12.2751117616869,-11.7927961652764,0.482315596410473
+"62013805000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-16.5060789811495,-16.3679575718349,0.138121409314675
+"62013806000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.28345737263894,-8.05077022683231,0.232687145806631
+"62013807000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-4.70723672199739,-4.5062432494192,0.20099347257819
+"62013810000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-12.3517951750082,-12.1535868251707,0.198208349837479
+"62013813000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.09208003501294,-7.90472965839001,0.187350376622923
+"62013908000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.1439848292697,-9.67496569553418,0.469019133735507
+"62013909000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-11.6096590860701,-11.3254822976926,0.28417678837746
+"62013912000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-6.68037333048319,-6.36787466953036,0.312498660952827
+"71422513000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-6.96583208545377,-6.74849736303655,0.217334722417226
+"71422537000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.4755131373707,-10.2382561468039,0.237256990566806
+"71422611000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.1191046335698,-9.91113377224654,0.207970861323272
+"71422615000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-3.76559068179367,-3.50145934098307,0.264131340810601
+"71422622000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.0299256315588,-9.82292891418276,0.206996717376009
+"71422709000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-12.3304759218311,-12.1496371531259,0.180838768705199
+"71422723000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-11.3179413012446,-11.1533825969842,0.164558704260434
+"71422725000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-5.15083545506907,-4.96442052658526,0.186414928483818
+"71422730000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-9.37297890024112,-9.06898311996311,0.303995780278017
+"71422736000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.73358418478061,-8.55369566606634,0.179888518714277
+"71427004000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.8472776777586,-10.6652660254916,0.182011652267002
+"71427019000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-5.9201365617993,-5.67919077617825,0.240945785621051
+"71427027000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-9.29955797989172,-9.0932576334155,0.206300346476219
+"71427110000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.1314131582336,-9.85621576674509,0.275197391488534
+"71427126000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-4.24044334571676,-4.00595483333579,0.234488512380975
+"71427129000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-10.9280014506208,-10.6873608023869,0.240640648233942
+"71427133000","dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",-8.39885683451257,-8.22936897333599,0.169487861176579
+"11212014000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-5.59751023612868,-4.96786024683036,0.629649989298319
+"11212205000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-6.26262459682344,-5.77906761917686,0.483556977646578
+"11212207000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",2.07898333424384,2.26954063790415,0.190557303660317
+"11212210000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",1.69246990304416,1.881302062048,0.188832159003834
+"11212404000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-6.33645280272299,-6.1327602456922,0.203692557030794
+"11212416000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-1.91954059014264,-1.74358187869562,0.175958711447028
+"11216911000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-1.43391613504559,-0.981705090355681,0.452211044689912
+"12414606000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-6.91922528107096,-6.79617533120488,0.123049949866082
+"20811307000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-7.7840530628957,-7.20105298063657,0.583000082259132
+"20811412000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-7.53902153085259,-7.00917700001708,0.529844530835509
+"23015706000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-4.90953473941818,-4.71991257278697,0.189622166631215
+"23015707000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-4.83163395792694,-4.66179247376601,0.169841484160933
+"23015712000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-5.6066080821095,-5.65007906273028,-0.0434709806207723
+"23016031000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-8.03916932081302,-7.78645073582435,0.252718584988677
+"23216402000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-12.1890074323838,-11.9335404534373,0.255466978946462
+"23216412000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-9.68102639060296,-9.12087451504681,0.560151875556159
+"23216416000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-12.2783775095276,-11.8079610184442,0.470416491083455
+"23216418000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-11.7959004148082,-11.4488089229873,0.347091491820834
+"30210204000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-10.1125359255165,-9.85382994188841,0.258705983628053
+"31613209000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-5.21946643567895,-5.20519211142507,0.0142743242538774
+"40410702000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-4.90075159429112,-4.7710928188714,0.129658775419717
+"40410704000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-6.43039211212723,-5.95161861138744,0.478773500739793
+"40410705000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-6.49696693172908,-6.07196000930886,0.425006922420222
+"40410706000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-4.30819169754208,-4.09808275100985,0.210108946532234
+"40410712000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-8.39185363675364,-8.171945262862,0.219908373891638
+"40410717000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-7.45855767191868,-6.95729427986573,0.501263392052951
+"40410808000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-7.07847400372444,-6.83984355299627,0.238630450728169
+"40410811000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-10.0667735450104,-9.82596645587368,0.240807089136741
+"40410818000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-7.72335259661308,-7.40600127757747,0.31735131903561
+"40416709000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-8.10163607915119,-7.82313029523745,0.278505783913737
+"40416710000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-6.90918486084363,-6.51191203828436,0.397272822559268
+"40416719000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-8.22167718682343,-7.68749602637408,0.534181160449353
+"40416813000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-8.85609151486713,-8.50749734891226,0.348594165954871
+"40416816000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-8.93396370150156,-8.69462227226614,0.239341429235415
+"42214101000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-7.00680424913702,-6.64027707722225,0.36652717191477
+"42214216000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-8.09907859335521,-7.95113205343472,0.14794653992049
+"42217206000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-5.18376973083909,-4.71545470519777,0.468315025641315
+"42815402000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-11.8880994410618,-11.6757392909664,0.212360150095423
+"42815403000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-10.0490702145693,-9.90654371475331,0.142526499816032
+"42815404000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-8.91455489234249,-8.70013462865205,0.214420263690441
+"42815407000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-7.35218761664293,-7.19267362272845,0.15951399391448
+"42815412000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-6.75095926946189,-6.5137273742501,0.23723189521179
+"42815415000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-8.98872475292794,-8.48890745997922,0.499817292948721
+"42815513000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-9.77305358531578,-9.36897108084955,0.40408250446623
+"42815516000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-10.7899599242987,-10.4565712858757,0.333388638423022
+"42815518000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-10.7669335772107,-10.3770121152914,0.38992146191929
+"42815519000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-13.8850245830991,-13.5806679094677,0.304356673631352
+"42815601000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-13.0757726517908,-12.8186914530806,0.257081198710232
+"42815608000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-14.2572465931192,-14.0928270475628,0.164419545556424
+"42815609000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-9.83824572137081,-9.32333418080438,0.51491154056643
+"42815611000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-9.44714413575382,-9.1068728001307,0.340271335623122
+"42815617000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-9.1948694340096,-8.85633934631195,0.338530087697645
+"51011521000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-5.44392778541542,-4.86015351213454,0.583774273280882
+"51011707000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-8.81120712336912,-8.67044816270212,0.140758960666997
+"51011710000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-5.86093988370349,-5.73099694099853,0.129942942704965
+"51011712000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-8.05347476859587,-7.57677195292162,0.476702815674243
+"51011716000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-8.26767369401651,-7.52462911772267,0.74304457629384
+"51011803000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-7.89697553749731,-7.11196021304452,0.785015324452788
+"51011814000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-7.96694872413779,-7.49559794973719,0.471350774400592
+"51011817000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-8.24173044670886,-7.74649581409824,0.495234632610625
+"51011818000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-5.44148349795022,-5.2163836093573,0.225099888592916
+"51011904000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-10.2233111155075,-9.48597567481875,0.737335440688714
+"51011905000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-8.45256490506562,-7.93848796639328,0.514076938672343
+"51011915000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-4.0481256879896,-4.38681167696198,-0.338685988972383
+"52615204000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-1.68205133652343,-1.31729999174205,0.36475134478138
+"52615205000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-11.6697729409764,-10.859806910113,0.809966030863393
+"52615301000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-10.2402188780271,-9.77210890178844,0.468109976238681
+"52615303000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-10.6149902701887,-10.4268548530924,0.188135417096285
+"52615306000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-11.5273083475179,-11.3620532017683,0.165255145749596
+"52615308000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-11.9855639179252,-11.2914983171931,0.694065600732099
+"52615313000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-10.2678712734604,-9.85626178165536,0.411609491804994
+"60610901000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-8.67821102229093,-8.31903949795782,0.359171524333112
+"60610913000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-11.8015978274505,-11.4625994798146,0.338998347635926
+"60610915000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-9.65334414732486,-9.20074520105563,0.45259894626923
+"60610919000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-13.2351755361179,-13.0917264821114,0.143449054006494
+"60611002000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-9.38354707009947,-9.25311074652351,0.130436323575955
+"60611003000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-8.92488527600696,-9.02438499651717,-0.0994997205102131
+"60611004000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-14.3060030828529,-14.0080465992958,0.29795648355716
+"60611006000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-13.937414627158,-13.3709620252291,0.566452601928926
+"60611018000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-10.4899176251262,-9.91850666583709,0.571410959289098
+"60611020000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-8.79120465440321,-9.13764672526739,-0.346442070864175
+"60611108000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-9.26741364066501,-8.6949634907838,0.572450149881208
+"60611109000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-0.263052805307277,-0.419404819997519,-0.156352014690243
+"60611205000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-10.1322697850317,-9.93308033655634,0.199189448475398
+"60611207000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-11.5481613446034,-10.8250177556093,0.723143588994123
+"60611211000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-7.10643327996486,-6.88886908767217,0.217564192292683
+"60611216000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-9.562042192716,-9.48566835711653,0.0763738355994743
+"61813302000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-8.64598864354728,-7.86708249747711,0.778906146070173
+"61813305000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-7.49639135874053,-6.97919844799579,0.517192910744743
+"61813307000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-7.24257629315396,-6.9357064293115,0.306869863842464
+"61813317000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-9.21080807200213,-8.63269367708788,0.578114394914252
+"61813409000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-10.6404842302641,-10.1514369641636,0.489047266100533
+"61813413000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-7.29733245274056,-7.11208800297772,0.185244449762847
+"61813414000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-7.60928622637376,-6.70651181209492,0.902774414278844
+"61813506000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-4.57601594687181,-4.20425879799193,0.37175714887988
+"61813510000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-1.67133853601674,-0.911030602290473,0.760307933726266
+"61813516000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",2.11248957451268,2.11529668381136,0.00280710929867478
+"61813519000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-6.35699514244298,-6.10135966993515,0.255635472507836
+"61813608000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-7.41463527387879,-6.5795485653932,0.83508670848559
+"61813612000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-8.01584368383246,-7.8616678282731,0.154175855559365
+"61813620000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-7.65516120854019,-7.47779111311394,0.177370095426251
+"62013711000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-12.2751117616869,-11.8192909651147,0.455820796572219
+"62013805000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-16.5060789811495,-16.0571013053721,0.44897767577741
+"62013806000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-8.28345737263894,-8.05452835353943,0.228929019099514
+"62013807000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-4.70723672199739,-4.98751022205823,-0.280273500060838
+"62013810000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-12.3517951750082,-12.2645270941513,0.0872680808569157
+"62013813000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-8.09208003501294,-8.14905595782841,-0.0569759228154734
+"62013908000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-10.1439848292697,-9.61515407801275,0.52883075125694
+"62013909000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-11.6096590860701,-11.4869298007451,0.122729285324926
+"62013912000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-6.68037333048319,-6.26656349142372,0.413809839059472
+"71422513000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-6.96583208545377,-6.7900475128921,0.175784572561671
+"71422537000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-10.4755131373707,-10.1985672661836,0.276945871187142
+"71422611000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-10.1191046335698,-10.3770855263099,-0.257980892740042
+"71422615000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-3.76559068179367,-3.57809675164659,0.187493930147078
+"71422622000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-10.0299256315588,-9.62682484904152,0.403100782517255
+"71422709000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-12.3304759218311,-12.754816471412,-0.424340549580952
+"71422723000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-11.3179413012446,-10.9893331404013,0.328608160843268
+"71422725000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-5.15083545506907,-4.90735166237312,0.24348379269595
+"71422730000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-9.37297890024112,-9.14210931198177,0.230869588259356
+"71422736000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-8.73358418478061,-8.66535677755641,0.0682274072242013
+"71427004000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-10.8472776777586,-10.301962021431,0.545315656327615
+"71427019000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-5.9201365617993,-5.61220588726062,0.307930674538682
+"71427027000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-9.29955797989172,-9.05021896434125,0.249339015550472
+"71427110000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-10.1314131582336,-9.88568805106502,0.245725107168605
+"71427126000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-4.24044334571676,-3.91646790190997,0.323975443806797
+"71427129000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-10.9280014506208,-10.6587061479164,0.269295302704395
+"71427133000","pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",-8.39885683451257,-8.28874370846664,0.110113126045935

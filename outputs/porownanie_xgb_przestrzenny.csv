@@ -1,0 +1,3 @@
+"model","rmse_srednie","rmse_sd","rmse_peryferyjne_srednie","lata_testowe"
+"XGBoost bazowy",2.29218833567229,0.507643931671259,2.29218833567229,6
+"XGBoost przestrzenny",2.31808446538787,0.509670308994702,2.31808446538787,6

@@ -1,0 +1,5 @@
+"model","rmse_srednie","wzgledem","srednia_roznica","p","lat_lepszy"
+"enet_progi",2.16739723160251,NA,NA,NA,NA
+"enet_progi_int1",2.14535196905218,"enet_progi",-0.0908131536617375,0.000527820100209141,4
+"enet_progi_int3",2.18791408487256,"enet_progi",0.0833906233804545,0.121216217305985,3
+"enet_progi_int5",2.1962782655387,"enet_progi",0.128649529787665,0.0493408407720809,3

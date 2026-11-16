@@ -1,0 +1,4 @@
+"zbior","obserwacje","powiaty","rok_min","rok_max","uwaga"
+"panel_clean",1778,127,2011,2024,"Po agregacji duplikatów; bez imputacji."
+"regresja_FE",1397,127,2014,2024,"Complete-case dla zmiennych regresji; główny wynik."
+"modele_panelowe_XGBoost",1270,127,2015,2024,"Complete-case po utworzeniu opóźnień; pierwsze dwa lata odpadają."
