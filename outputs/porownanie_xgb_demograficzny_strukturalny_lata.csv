@@ -1,19 +1,19 @@
 "rok","model","rmse","n_test"
-2019,"XGBoost determinantów (bez dep_lag)",2.47626066657831,127
-2019,"Elastic net determinantów (bez dep_lag)",2.64484058501874,127
-2019,"Hybryda: elastic net + progi z ALE (XGBoost)",2.6458362836444,127
-2020,"XGBoost determinantów (bez dep_lag)",1.82597208505846,127
-2020,"Elastic net determinantów (bez dep_lag)",2.1697773604349,127
-2020,"Hybryda: elastic net + progi z ALE (XGBoost)",2.166362849917,127
-2021,"XGBoost determinantów (bez dep_lag)",2.81544297831714,127
-2021,"Elastic net determinantów (bez dep_lag)",2.07768124972044,127
-2021,"Hybryda: elastic net + progi z ALE (XGBoost)",2.05934326031585,127
-2022,"XGBoost determinantów (bez dep_lag)",2.63860538171409,127
-2022,"Elastic net determinantów (bez dep_lag)",1.94895458715904,127
-2022,"Hybryda: elastic net + progi z ALE (XGBoost)",1.90657059536909,127
-2023,"XGBoost determinantów (bez dep_lag)",1.80971117693305,127
-2023,"Elastic net determinantów (bez dep_lag)",2.36292869860291,127
-2023,"Hybryda: elastic net + progi z ALE (XGBoost)",2.1529259480368,127
-2024,"XGBoost determinantów (bez dep_lag)",1.7981380564424,127
-2024,"Elastic net determinantów (bez dep_lag)",2.15556265002683,127
-2024,"Hybryda: elastic net + progi z ALE (XGBoost)",2.07334445233195,127
+2019,"XGBoost determinantów (bez dep_lag)",2.40657803038322,127
+2019,"Elastic net determinantów (bez dep_lag)",2.64314258362824,127
+2019,"Hybryda: elastic net + progi z ALE (XGBoost)",2.6415245649134,127
+2020,"XGBoost determinantów (bez dep_lag)",1.73171463911283,127
+2020,"Elastic net determinantów (bez dep_lag)",2.07335146049266,127
+2020,"Hybryda: elastic net + progi z ALE (XGBoost)",1.93922567073952,127
+2021,"XGBoost determinantów (bez dep_lag)",3.03989901759903,127
+2021,"Elastic net determinantów (bez dep_lag)",2.05475723022044,127
+2021,"Hybryda: elastic net + progi z ALE (XGBoost)",2.024585059887,127
+2022,"XGBoost determinantów (bez dep_lag)",2.82422561192367,127
+2022,"Elastic net determinantów (bez dep_lag)",1.92336813493966,127
+2022,"Hybryda: elastic net + progi z ALE (XGBoost)",2.00456526853949,127
+2023,"XGBoost determinantów (bez dep_lag)",1.85572101012899,127
+2023,"Elastic net determinantów (bez dep_lag)",2.24057730139879,127
+2023,"Hybryda: elastic net + progi z ALE (XGBoost)",2.12725424129643,127
+2024,"XGBoost determinantów (bez dep_lag)",1.85985839847388,127
+2024,"Elastic net determinantów (bez dep_lag)",2.08352051601828,127
+2024,"Hybryda: elastic net + progi z ALE (XGBoost)",2.06915618912281,127

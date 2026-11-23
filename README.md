@@ -17,15 +17,18 @@ powiatów peryferyjnych do 2030 r. i co mogłoby ten proces spowolnić?
 ## Główne wyniki
 
 - **Prognoza:** powiaty peryferyjne (127 z 380) stracą do 2030 r. średnio ok. **5,3%** mieszkańców.
-  Najbardziej zagrożone są powiaty hajnowski, hrubieszowski, siemiatycki, sokólski i kętrzyński, głównie
+  Najbardziej zagrożone są powiaty hajnowski, hrubieszowski, siemiatycki, sokólski i krasnostawski, głównie
   wzdłuż wschodniej granicy.
-- **Wybór modelu:** spośród 13 modeli porównanych w walidacji kroczącej 2019–2024 najniższy błąd ma
+- **Wybór modelu:** spośród 13 modeli porównanych w walidacji kroczącej 2019–2024 najniższy średni błąd ma
   **elastic net**. Jest istotnie lepszy od panelowego modelu efektów stałych (test Diebolda-Mariano z korektą
   Holma). XGBoost, Random Forest, sieć neuronowa i modele geograficzne nie są lepsze nawet po strojeniu.
+  Między czołowymi modelami różnice są jednak mniejsze niż wpływ wstrząsów rocznych (COVID, uchodźcy),
+  więc przy 6 latach testowych nie da się ich wiarygodnie uszeregować (test wyboru zagnieżdżonego
+  i na odłożonych latach 2023–2024 w raporcie).
 - **Czynniki:** największy efekt ma **starzenie się ludności**. Działa progowo: najsilniej do ok. 19% osób 65+.
   Liczy się też odległość od miasta wojewódzkiego (do ok. 41 km), bezrobocie i gęstość zaludnienia.
 - **Scenariusze:** spadek bezrobocia o 2 pp i skrócenie dystansu do miasta wojewódzkiego o 20% to dźwignie
-  o istotnym efekcie (bootstrap blokowy po powiatach). Pakiet interwencji hamuje depopulację o ok. 0,3‰ rocznie,
+  o istotnym efekcie (bootstrap blokowy po powiatach). Pakiet interwencji hamuje depopulację o ok. 0,4‰ rocznie,
   ale jej nie odwraca.
 
 Pełny opis metod, testów i ograniczeń jest w raporcie.
@@ -41,7 +44,8 @@ Pełny opis metod, testów i ograniczeń jest w raporcie.
 | Co dałyby interwencje? | hybryda: elastic net + progi z ALE, istotność z bootstrapu |
 
 Wszystkie porównania modeli używają walidacji kroczącej (uczenie na latach wcześniejszych, test na
-2019–2024). Hiperparametry są strojone wyłącznie na latach 2017–2018.
+2019–2024). Hiperparametry są strojone wyłącznie na latach 2017–2018. Artefakty zmian granic administracyjnych
+wykrywane są z bilansu ludności (zmiana ludności ≠ przyrost naturalny + saldo migracji).
 
 ## Struktura repozytorium
 

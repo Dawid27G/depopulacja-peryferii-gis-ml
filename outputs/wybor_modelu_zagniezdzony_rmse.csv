@@ -1,0 +1,16 @@
+"model","rmse"
+"Elastic net",1.99688472684788
+"Hybryda: elastic net + progi z ALE",2.06404998689442
+"Elastic net + cechy SDM (W·X, W·y)",2.0704967010046
+"Ensemble (FE + XGBoost)/2",2.14443412349572
+"XGBoost within (hybryda FE)",2.17008705378674
+"Geographical Random Forest",2.1706316609227
+"FE panelowy",2.1800508134721
+"XGBoost + średnia powiatu",2.22309326587197
+"XGBoost + cechy SDM (W·X, W·y)",2.23266880601934
+"Procedura: wybór zagnieżdżony",2.26391416104654
+"Sieć neuronowa MLP",2.27180523211681
+"Random Forest",2.27184670787122
+"XGBoost dostrojony (random search)",2.30233639094256
+"XGBoost",2.34022364986131
+"poprzedni rok",2.35800680483187

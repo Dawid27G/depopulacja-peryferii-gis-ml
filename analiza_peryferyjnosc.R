@@ -148,6 +148,9 @@ wzbogac_panel_ml <- function(panel) {
 # ---------------------------------------------------------------------------
 # 2. ZMIENNE POCHODNE
 # ---------------------------------------------------------------------------
+# Próg rozbieżności bilansu ludności [‰]: 99% obserwacji ma |różnicę| < 3,7‰.
+PROG_ARTEFAKTU <- 5
+
 dodaj_zmienne <- function(df) {
   regon <- "podmioty_gospodarki_narodowej_wpisane_do_rejestru_regon_razem"
   df <- df %>%
@@ -158,14 +161,22 @@ dodaj_zmienne <- function(df) {
     )
 
   # Zmienna zależna: roczna zmiana ludności na 1000 mieszk.
-  # Skrajne wartości = artefakty zmian granic -> winsoryzacja 1/99 percentyla.
-  # Rok 2010 jest niespójny z szeregiem ludności, więc nie wpływa na progi.
+  # Artefakty zmian granic wykrywamy z BILANSU LUDNOŚCI: zmiana ludności
+  # powinna być równa przyrostowi naturalnemu + saldu migracji. Gdy różnica
+  # przekracza PROG_ARTEFAKTU, ludność zmieniła się przez przesunięcie granic,
+  # a nie przez zjawiska demograficzne; wtedy zmianę ludności zastępujemy sumą
+  # składników. Wcześniejsza winsoryzacja 1/99 percentyla (a) przycinała
+  # prawdziwe skrajne spadki najbardziej wyludniających się powiatów,
+  # (b) pomijała część artefaktów, (c) liczyła granice z całego okresu, czyli
+  # także z lat testowych. Reguła bilansowa działa na pojedynczej obserwacji,
+  # więc nie korzysta z informacji z innych lat.
   y <- "zmiana_ludnosci_1000"
-  q <- unname(quantile(df[[y]][df$rok >= 2011], c(0.01, 0.99), na.rm = TRUE))
+  sk <- df$przyrost_naturalny_1000 + df$saldo_migracji_1000
+  artefakt <- !is.na(sk) & !is.na(df[[y]]) & abs(df[[y]] - sk) > PROG_ARTEFAKTU
   df %>% mutate(
-    dep_surowe = .data[[y]],
-    zmiana_granic = .data[[y]] < q[1] | .data[[y]] > q[2],
-    dep           = pmin(pmax(.data[[y]], q[1]), q[2])
+    dep_surowe    = .data[[y]],
+    zmiana_granic = artefakt,
+    dep           = ifelse(artefakt, sk, .data[[y]])
   )
 }
 
@@ -2755,6 +2766,52 @@ grf_predykcja <- function(train, test, cechy, k = 30, waga_lokalna = 0.5,
   waga_lokalna * p_lok + (1 - waga_lokalna) * p_glob
 }
 
+# Odporność wyboru modelu prognozy. Lata testowe 2019-2024 posłużyły też do
+# wyboru modelu, więc jego błąd na tych latach jest lekko optymistyczny.
+# (1) wybór zagnieżdżony: w roku r wybieramy model o najniższym średnim RMSE
+#     z lat testowych < r i oceniamy go w roku r (błąd całej procedury);
+# (2) zbiór odłożony: wybór na latach 2019-2022, ocena na 2023-2024.
+ocena_wyboru_modelu <- function(pred) {
+  pred <- pred %>% mutate(kod_powiatu = as.character(kod_powiatu), e2 = (dep - pred)^2)
+  roczne <- pred %>% group_by(model, rok) %>% summarise(rmse = sqrt(mean(e2)), .groups = "drop")
+  lata <- sort(unique(pred$rok))
+  wybor <- bind_rows(lapply(lata[-1], function(r) {
+    h <- roczne %>% filter(rok < r) %>% group_by(model) %>% summarise(rmse_hist = mean(rmse), .groups = "drop") %>%
+      arrange(rmse_hist)
+    data.frame(rok = r, wybrany = h$model[1], rmse_lat_wczesniejszych = h$rmse_hist[1],
+               rmse_w_roku = roczne$rmse[roczne$model == h$model[1] & roczne$rok == r])
+  }))
+  proc <- bind_rows(lapply(seq_len(nrow(wybor)), function(i)
+    pred %>% filter(rok == wybor$rok[i], model == wybor$wybrany[i]))) %>%
+    mutate(model = "Procedura: wybór zagnieżdżony")
+  E <- bind_rows(pred %>% filter(rok %in% wybor$rok), proc)
+  W <- E %>% select(kod_powiatu, rok, model, e2) %>% tidyr::pivot_wider(names_from = model, values_from = e2)
+  dm <- function(a, b, dane) {
+    dane$r <- dane[[a]] - dane[[b]]
+    m <- fixest::feols(r ~ 1, data = dane, cluster = ~kod_powiatu)
+    c(roznica = unname(coef(m)[1]), p = unname(fixest::pvalue(m)[1]))
+  }
+  tab_z <- E %>% group_by(model, rok) %>% summarise(r = sqrt(mean(e2)), .groups = "drop") %>%
+    group_by(model) %>% summarise(rmse = mean(r), .groups = "drop") %>% arrange(rmse)
+  d_fe <- dm("Procedura: wybór zagnieżdżony", "FE panelowy", W)
+  d_en <- dm("Procedura: wybór zagnieżdżony", "Elastic net", W)
+  attr_z <- data.frame(porownanie = c("procedura vs FE panelowy", "procedura vs Elastic net"),
+                       srednia_roznica = c(d_fe[1], d_en[1]), p = c(d_fe[2], d_en[2]))
+  sel <- roczne %>% filter(rok <= 2022) %>% group_by(model) %>% summarise(rmse_2019_2022 = mean(rmse), .groups = "drop")
+  ho <- roczne %>% filter(rok >= 2023) %>% group_by(model) %>% summarise(rmse_2023_2024 = mean(rmse), .groups = "drop")
+  holdout <- left_join(sel, ho, by = "model") %>% arrange(rmse_2019_2022)
+  W2 <- pred %>% filter(rok >= 2023) %>% select(kod_powiatu, rok, model, e2) %>%
+    tidyr::pivot_wider(names_from = model, values_from = e2)
+  d_ho <- dm(holdout$model[1], "FE panelowy", W2)
+  write.csv(wybor, file.path(OUT, "wybor_modelu_zagniezdzony.csv"), row.names = FALSE, fileEncoding = "UTF-8")
+  write.csv(tab_z, file.path(OUT, "wybor_modelu_zagniezdzony_rmse.csv"), row.names = FALSE, fileEncoding = "UTF-8")
+  write.csv(rbind(attr_z, data.frame(porownanie = paste(holdout$model[1], "vs FE panelowy (2023-2024)"),
+                                     srednia_roznica = d_ho[1], p = d_ho[2])),
+            file.path(OUT, "wybor_modelu_testy.csv"), row.names = FALSE, fileEncoding = "UTF-8")
+  write.csv(holdout, file.path(OUT, "wybor_modelu_holdout_2023_2024.csv"), row.names = FALSE, fileEncoding = "UTF-8")
+  invisible(list(wybor = wybor, zagniezdzony = tab_z, holdout = holdout))
+}
+
 porownanie_modeli_ml <- function(panel, coords, lata_testowe = 2019:2024,
                                  sdm = NULL) {
   P <- przygotuj_dane_xgb_panel(panel, coords)
@@ -2889,6 +2946,7 @@ porownanie_modeli_ml <- function(panel, coords, lata_testowe = 2019:2024,
     arrange(rmse_srednie)
   write.csv(tabela, file.path(OUT, "porownanie_modeli_ml.csv"),
             row.names = FALSE, fileEncoding = "UTF-8")
+  ocena_wyboru_modelu(pred)
   attr(tabela, "mlp") <- cfg_mlp
   attr(tabela, "predykcje") <- pred
   tabela

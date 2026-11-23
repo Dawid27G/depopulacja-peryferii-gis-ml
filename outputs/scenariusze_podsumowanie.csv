@@ -1,7 +1,7 @@
 "scenariusz","model","sredni_efekt_1000_rocznie","mediana_efektu","min_efekt","max_efekt","odsetek_powiatow_z_poprawa"
-"pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",0.312999493527848,0.29795648355716,-0.424340549580952,0.902774414278844,0.913385826771654
-"bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",0.27688518942015,0.311437412669619,0.0692359000993541,0.31143741266963,1
-"dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",0.245314199215747,0.206996717376009,0.0504248466504542,0.482315596410473,1
-"inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",0.161139174138044,0.161711534277092,0.110299607284901,0.161711534277098,1
-"lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-0.181139187492591,-0.232094523404935,-0.361135167457139,0.0637510091372668,0.062992125984252
-"kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-0.189199881753502,-0.148237146618904,-0.728951183016175,0,0
+"pakiet łączny","Hybryda: elastic net + progi z ALE (XGBoost)",0.410548516860863,0.349465526435609,-0.378326818620788,1.08466173785157,0.937007874015748
+"bezrobocie -2 pp","Hybryda: elastic net + progi z ALE (XGBoost)",0.308950839921892,0.315305632600506,0.0951517442009333,0.315305632600513,1
+"dostępność: odległość −20%","Hybryda: elastic net + progi z ALE (XGBoost)",0.262203270689525,0.182998149526103,0.0679641325242244,0.650079539957254,1
+"inwestycje +5 pp","Hybryda: elastic net + progi z ALE (XGBoost)",0.1808236548777,0.181639166192767,0.0967291792194374,0.181639166192774,1
+"kanalizacja +10 pp","Hybryda: elastic net + progi z ALE (XGBoost)",-0.156643476942869,-0.115465154530725,-0.680044551435095,0,0
+"lekarze +20%","Hybryda: elastic net + progi z ALE (XGBoost)",-0.184785771685387,-0.231923918631615,-0.360770540093633,0.0436346253598785,0

@@ -127,14 +127,19 @@ model, który odpowiada na nie najlepiej. Kluczowe wyniki sprawdzamy drugim mode
 
 | Pytanie | Model główny | Dlaczego | Kontrola odporności |
 |---|---|---|---|
-| Jak zmieni się ludność do 2030 r.? (mapa przyszłości) | elastic net | najniższy błąd ex ante; istotnie lepszy od FE (test DM z korektą Holma) | prognoza XGBoost (sekcja 6) |
+| Jak zmieni się ludność do 2030 r.? (mapa przyszłości) | elastic net | najniższy średni błąd ex ante 2019–2024; istotnie lepszy od FE (test DM z korektą Holma), niższy błąd także na odłożonych latach 2023–2024 | prognoza XGBoost (sekcja 6) |
 | Jakie czynniki i w którą stronę? | panel FE, SDM | interpretowalne współczynniki, istotność, efekty sąsiedztwa | ważność cech w EN i XGBoost (sekcja 4) |
 | Czy zależności są nieliniowe, gdzie są progi? | XGBoost (krzywe ALE) | model liniowy z definicji nie wykryje progu | stabilność progów w 6 oknach uczących; czy progi poprawiają model liniowy (sekcja 4) |
 | Czy mechanizm różni się w przestrzeni? | GW-XGBoost | wymaga modelu lokalnego | lokalne testy permutacyjne z FDR |
 | Co dałyby interwencje? | hybryda: elastic net + progi z ALE | najniższy błąd wśród modeli determinantów (przewaga nieistotna), a jednocześnie uwzględnia progi | te same scenariusze w XGBoost i czystym elastic net (sekcja 8) |
 
-Zmienna zależna: **roczna zmiana ludności na 1000 mieszkańców** (‰), winsoryzowana na 1. i 99. percentylu
-(artefakty zmian granic administracyjnych).
+Zmienna zależna: **roczna zmiana ludności na 1000 mieszkańców** (‰). Artefakty zmian granic administracyjnych
+wykrywamy z **bilansu ludności**: zmiana ludności powinna równać się przyrostowi naturalnemu plus saldu migracji.
+Gdy różnica przekracza 5‰ (99% obserwacji ma różnicę poniżej 3,7‰), ludność zmieniła się przez przesunięcie granic.
+Wtedy zmianę ludności zastępujemy sumą składników. `r art <- wcz("panel_clean.csv"); if ("zmiana_granic" %in% names(art)) paste0("W próbie peryferyjnej takich obserwacji jest ", sum(art$zmiana_granic %in% c(TRUE, "TRUE") & art$rok >= 2011), ", głównie w 2015 r. (duże zmiany granic z 1 stycznia 2015 r.).") else ""`
+Wcześniej stosowaliśmy winsoryzację na 1. i 99. percentylu. Odrzuciliśmy ją, bo przycinała prawdziwe skrajne
+spadki ludności najbardziej wyludniających się powiatów (np. hajnowskiego i hrubieszowskiego), pomijała część
+artefaktów, a granice liczyła z całego okresu, czyli także z lat testowych.
 
 ## 2. Dane i klasyfikacja peryferyjności
 
@@ -293,12 +298,13 @@ xgb_p <- ml$dm_p_holm[ml$model == "XGBoost"]
 **Wnioski z testu odporności:**
 
 1. Po korekcie Holma istotnie lepsze od FE są tylko modele z rodziny elastic net: **`r paste(istotne, collapse = "** oraz **")`**,
-   czyli regresja regularyzowana i liniowa. Najniższy błąd ma `r naj_ml` (RMSE `r f2(ml$rmse_srednie[1], 3)`‰).
+   czyli regresja regularyzowana i liniowa. Najniższy średni błąd w latach 2019–2024 ma `r naj_ml` (RMSE `r f2(ml$rmse_srednie[1], 3)`‰). Różnice między najlepszymi modelami są jednak małe (zob. „Czy wybór modelu jest odporny?”).
 2. Żaden wariant drzew (dostrojony XGBoost, hybryda FE, RF, Geographical RF) ani sieć neuronowa
-   nie różni się istotnie od FE. Różnica XGBoost vs FE ma p Holma = `r f2(xgb_p, 2)`.
+   nie jest istotnie lepszy od FE. `r drz <- ml %>% filter(grepl("XGBoost|Random Forest|MLP", model), !is.na(dm_p_holm), dm_p_holm < .05, dm_srednia_roznica > 0); if (nrow(drz) > 0) paste0("Istotnie **gorsze** od FE (po korekcie Holma) są: ", paste(drz$model, collapse = ", "), ".") else paste0("Różnica XGBoost vs FE ma p Holma = ", f2(xgb_p, 2), ".")`
 3. Porządne strojenie XGBoost (200 konfiguracji w szerokiej przestrzeni) nie zmienia wyniku. W modelu
-   prognostycznym wybiera drzewa o głębokości 1, a w latach testowych daje błąd taki jak wersja podstawowa.
-   Problemem nie są więc źle dobrane hiperparametry.
+   prognostycznym wybiera drzewa o głębokości `r sub(".*max_depth=([0-9]+).*", "\\1", str_ml$wybrane[str_ml$model == "XGBoost dostrojony"])`,
+   a w latach testowych daje RMSE `r f2(ml$rmse_srednie[ml$model == "XGBoost dostrojony (random search)"], 3)`‰ wobec
+   `r f2(ml$rmse_srednie[ml$model == "XGBoost"], 3)`‰ dla wersji podstawowej. Problemem nie są więc źle dobrane hiperparametry.
 4. Modele „geograficzne” (GW-XGBoost, Geographical RF) nie dają istotnej poprawy. Zgadza się to
    ze słabą, ujemną autokorelacją przestrzenną (sekcja 5).
 5. **Połączenie ML z SDM** (cechy W·X i W·y): `r xs <- ml[ml$model == "XGBoost + cechy SDM (W·X, W·y)", ]; es <- ml[ml$model == "Elastic net + cechy SDM (W·X, W·y)", ]; e0 <- ml[ml$model == "Elastic net", ]; x0 <- ml[ml$model == "XGBoost", ]; sprintf("XGBoost z cechami SDM ma RMSE %s‰ wobec %s‰ bez nich, a elastic net %s‰ wobec %s‰.", f2(xs$rmse_srednie, 3), f2(x0$rmse_srednie, 3), f2(es$rmse_srednie, 3), f2(e0$rmse_srednie, 3))`
@@ -327,6 +333,69 @@ xgb_p <- ml$dm_p_holm[ml$model == "XGBoost"]
    **wyjaśniania** depopulacji (SDM, lokalna ważność cech w GW-XGBoost, sekcja 5), ale nie poprawia
    **prognozy** ponad historię samego powiatu. Dlatego GW-XGBoost służy w projekcie do map lokalnych
    czynników, a nie do prognozy.
+
+### Czy wybór modelu jest odporny?
+
+Lata testowe 2019–2024 posłużyły nie tylko do oceny modeli, ale też do **wyboru** modelu prognozy. Błąd
+zwycięzcy na tych samych latach jest więc lekko optymistyczny („klątwa zwycięzcy”). Korekta Holma ogranicza
+ten problem, ale go nie usuwa. Czystego zbioru, którego nikt nie oglądał, nie mamy, bo dane kończą się w 2024 r.
+Wybór sprawdziliśmy więc na dwa sposoby, korzystając z tych samych prognoz 13 modeli.
+
+**1. Wybór zagnieżdżony w czasie.** W każdym roku wybieramy model o najniższym błędzie w **latach
+wcześniejszych** i sprawdzamy go w tym roku. Mierzymy w ten sposób jakość całej procedury „wybierz najlepszy
+model, potem prognozuj”.
+
+```{r}
+wz <- wcz("wybor_modelu_zagniezdzony.csv"); wz_t <- wcz("wybor_modelu_testy.csv")
+wz_r <- wcz("wybor_modelu_zagniezdzony_rmse.csv")
+kable(wz %>% transmute(Rok = rok, `Wybrany model` = wybrany,
+                       `RMSE w latach wcześniejszych` = f2(rmse_lat_wczesniejszych, 3), `RMSE w tym roku` = f2(rmse_w_roku, 3)))
+r_proc <- wz_r$rmse[wz_r$model == "Procedura: wybór zagnieżdżony"]
+r_en <- wz_r$rmse[wz_r$model == "Elastic net"]; r_fe <- wz_r$rmse[wz_r$model == "FE panelowy"]
+t_fe <- wz_t[wz_t$porownanie == "procedura vs FE panelowy", ]
+```
+
+Procedura ma w latach `r min(wz$rok)`–`r max(wz$rok)` RMSE **`r f2(r_proc, 2)`‰**, wobec `r f2(r_en, 2)`‰ dla elastic net
+i `r f2(r_fe, 2)`‰ dla FE (procedura vs FE: p = `r f2(t_fe$p, 3)`). Z jednego czy dwóch lat nie da się wiarygodnie
+wskazać zwycięzcy: wygrywają modele, które akurat miały dobry rok. Przewaga elastic net jest stabilna, ale widać
+ją dopiero na dłuższym okresie.
+
+**2. Zbiór odłożony.** Model wybieramy na latach 2019–2022, a oceniamy na latach 2023–2024, których
+przy wyborze nie używamy.
+
+```{r}
+ho <- wcz("wybor_modelu_holdout_2023_2024.csv")
+kable(ho %>% head(8) %>% transmute(Model = model, `RMSE 2019–2022 (wybór)` = f2(rmse_2019_2022, 3),
+                                   `RMSE 2023–2024 (ocena)` = f2(rmse_2023_2024, 3)),
+      caption = "8 najlepszych modeli według lat 2019–2022")
+t_ho <- wz_t[grepl("2023", wz_t$porownanie), ]
+lepsze_ho <- ho$model[ho$rmse_2023_2024 < ho$rmse_2023_2024[1]]
+```
+
+Na latach 2019–2022 wygrywa **`r ho$model[1]`**. Na odłożonych latach 2023–2024 ma `r if (t_ho$srednia_roznica < 0 && t_ho$p < .05) "**istotnie niższy błąd niż FE**" else if (t_ho$srednia_roznica < 0) "**niższy błąd niż FE, ale różnica jest nieistotna**" else "**wyższy błąd niż FE**"`
+(`r f2(ho$rmse_2023_2024[1], 2)`‰ wobec `r f2(ho$rmse_2023_2024[ho$model == "FE panelowy"], 2)`‰; p = `r f2(t_ho$p, 3)`). Dwa lata
+to jednak tylko dwie próby, więc ten test ma małą moc.
+`r if (length(lepsze_ho) > 0) paste0("W tych dwóch latach niższy błąd ma jednak ", length(lepsze_ho), " innych modeli, m.in. ", paste(head(lepsze_ho, 3), collapse = ", "), ". Ranking modeli ML zmienia się więc zależnie od okresu.") else ""`
+Zastrzeżenie: lata 2023–2024 nie są dla nas całkiem „dziewicze”, bo pełną tabelę wyników oglądaliśmy już wcześniej.
+Sama reguła wyboru jest jednak mechaniczna.
+
+**Dlaczego nie da się rzetelnie uszeregować najlepszych modeli?**
+
+- **Mamy faktycznie 6 prób, a nie ok. 760 obserwacji.** W danym roku wszystkie powiaty dostają ten sam
+  wstrząs (2020–2021 COVID, 2022 napływ uchodźców z Ukrainy), więc ich błędy są silnie powiązane.
+  Statystycznie mamy bliżej 6 niezależnych prób niż 762.
+- **Różnice między najlepszymi modelami są małe w porównaniu z wahaniami między latami.** Między
+  czołowymi modelami różnice wynoszą setne części promila, a błąd tego samego modelu zmienia się między latami
+  o kilka dziesiątych.
+- **Lata różnią się charakterem.** W spokojnych latach dobrze działa nawet naiwna prognoza „jak w poprzednim roku”,
+  a w latach turbulentnych bezpieczniejszy jest model z regularyzacją.
+
+**Wniosek:** najmocniejszy wynik to **przewaga elastic net nad panelowym modelem FE**: istotna w pełnym okresie 2019–2024
+(test DM z korektą Holma), a na odłożonych latach 2023–2024 `r if (t_ho$srednia_roznica < 0 && t_ho$p < .05) "również istotna" else if (t_ho$srednia_roznica < 0) "w tym samym kierunku, choć przy dwóch latach nieistotna" else "niepotwierdzona"`.
+Nieodporna jest teza, że elastic net jest „najlepszym z 13 modeli”.
+Między czołowymi modelami różnice są mniejsze niż wpływ wstrząsów rocznych. Elastic net wybraliśmy jako
+najprostszy, najstabilniejszy i najlepszy średnio. Pełną weryfikację dadzą dopiero kolejne lata danych GUS
+(2025 i następne).
 
 **Interpretacja:** w panelu 127 powiatów (ok. 1000 obserwacji uczących) przewidywalna część depopulacji
 to bezwładność trendu i struktura wieku, a obie zależności są w przybliżeniu liniowe. Dodatkowa
@@ -374,7 +443,7 @@ kable(bind_rows(fmt_cfg(head(st_det, 5)) %>% mutate(Rola = c("XGBoost determinan
 ```
 
 Strojenie wybrało drzewa o głębokości `r st_det$max_depth[1]`. W latach testowych 2019–2024 XGBoost determinantów
-ma teraz RMSE `r f2(det_x, 3)`‰ zamiast 2,571‰, czyli tyle co elastic net (`r f2(det_e, 3)`‰).
+ma teraz RMSE `r f2(det_x, 3)`‰ zamiast 2,571‰. Elastic net ma `r f2(det_e, 3)`‰, więc strojenie wyraźnie zmniejszyło przewagę modelu liniowego`r if (det_x > det_e) ', ale jej nie zniosło' else ''`.
 
 **Z którego XGBoost liczymy progi?** Nastrojony XGBoost ma głębokie drzewa, więc uwzględnia interakcje cech.
 Krzywa ALE z takiego modelu miesza wtedy efekt samej cechy z jej interakcjami. W przebiegu kontrolnym progi
@@ -567,11 +636,8 @@ Do hybrydy dodaliśmy najsilniejsze pary jako iloczyny wycentrowanych cech:
 - 3 pary: `r f2(iw("enet_progi_int3")$rmse_srednie, 3)`‰ (p = `r f2(iw("enet_progi_int3")$p, 2)`),
 - 5 par: `r f2(iw("enet_progi_int5")$rmse_srednie, 3)`‰ (p = `r f2(iw("enet_progi_int5")$p, 2)`).
 
-**Interakcji nie dodajemy do modelu**, mimo że jedna para obniża błąd. Ten wynik nie jest odporny: w przebiegu
-kontrolnym, gdzie interakcje mierzył XGBoost o głębokości 3, ta sama jedna para nie poprawiała wyniku
-(p = 0,15, lepiej w 1 z 6 lat). Więcej par wyraźnie pogarsza błąd. Liczbę par wybieralibyśmy też po zobaczeniu
-trzech wariantów na latach testowych, czyli przy wielokrotnym testowaniu. Interakcje opisujemy więc jako cechę danych:
-efekty dźwigni zależą od struktury wieku. Hybryda zostaje addytywna.
+`r ib <- int_wal[grepl("int", int_wal$model), ]; if (any(ib$srednia_roznica < 0 & ib$p < .05)) "**Interakcji nie dodajemy do modelu**, mimo że jeden z wariantów obniża błąd. Wynik nie był odporny: w innych przebiegach analizy (inne ustawienia XGBoost i obsługa artefaktów) ta sama para nie poprawiała prognozy, a więcej par ją pogarsza. Liczbę par wybieralibyśmy też po zobaczeniu trzech wariantów na latach testowych." else "**Interakcje nie poprawiają prognozy** w żadnym wariancie, więc nie dodajemy ich do modelu. We wcześniejszym przebiegu analizy jedna para (bezrobocie × 65+) obniżała błąd, ale wynik nie był odporny na zmiany w przygotowaniu danych."`
+Interakcje opisujemy więc jako cechę danych: efekty dźwigni zależą od struktury wieku. Hybryda zostaje addytywna.
 
 ### Walidacja przestrzenno-czasowa
 
@@ -774,8 +840,9 @@ pp <- wcz("prognoza_porownanie_modeli.csv")
 pp_en <- pp[1, ]; pp_xg <- pp[2, ]
 ```
 
-**Model prognozy: elastic net.** W teście odporności (sekcja 4) miał najniższy błąd i był istotnie
-lepszy od FE. Był też istotnie lepszy od swojej wersji z progami ALE, dlatego to on generuje mapę przyszłości. Hiperparametry (α, λ) dobierane są na ostatnim roku
+**Model prognozy: elastic net.** W teście odporności (sekcja 4) miał najniższy średni błąd i był istotnie
+lepszy od FE. Wybraliśmy go jako najprostszy i najstabilniejszy z najlepszych modeli,
+a nie jako bezwzględnego zwycięzcę (sekcja 4). `r hp6 <- wcz("prognoza_dm_hybryda_vs_enet.csv"); if (hp6$srednia_roznica > 0 && hp6$p < .05) "Był też istotnie lepszy od swojej wersji z progami ALE." else ""` To on generuje mapę przyszłości. Hiperparametry (α, λ) dobierane są na ostatnim roku
 danych uczących, bez mieszania lat. Prognoza jest rekurencyjna: ścieżki predyktorów wyznacza trend
 z lat 2022–2024, ograniczony do zakresu obserwowanego w danych, a średnia historyczna powiatu jest
 aktualizowana o kolejne prognozy. Przedział 90% to ±`r f2(pp_en$q90)`‰ × √horyzont, gdzie q90
@@ -993,14 +1060,12 @@ b <- function(n) bt_tab[bt_tab$scenariusz == n, ]
 ```
 
 Na poziomie 5% w obu wariantach istotne są: `r paste(ist$scenariusz, collapse = ", ")`.
-Płace (p = `r f2(b("płace +10 pp")$p_bootstrap, 2)`), inwestycje (p = `r f2(b("inwestycje +5 pp")$p_bootstrap, 2)`)
-i kanalizacja (p = `r f2(b("kanalizacja +10 pp")$p_bootstrap, 2)`) są **nieistotne**: ich przedziały obejmują zero,
-więc nie da się nawet rozstrzygnąć znaku efektu. Ujemny efekt lekarzy jest `r if (max(b("lekarze +20%")$p_bootstrap, b("lekarze +20%")$p2) < .05) "istotny w obu wariantach" else "istotny przy progach stałych, ale na granicy po uwzględnieniu niepewności progów"`
+`r nist <- bt_tab %>% filter(p_bootstrap >= .05, p2 >= .05); gran <- bt_tab %>% filter(xor(p_bootstrap < .05, p2 < .05)); paste0(if (nrow(nist) > 0) paste0("**Nieistotne** w obu wariantach: ", paste0(nist$scenariusz, " (p = ", f2(nist$p_bootstrap, 2), ")", collapse = ", "), ". Ich przedziały obejmują zero, więc nie da się nawet rozstrzygnąć znaku efektu. ") else "", if (nrow(gran) > 0) paste0("**Na granicy** (istotne tylko w jednym wariancie): ", paste0(gran$scenariusz, " (p = ", f2(gran$p_bootstrap, 3), " i ", f2(gran$p2, 3), ")", collapse = ", "), ".") else "")` Ujemny efekt lekarzy jest `r if (max(b("lekarze +20%")$p_bootstrap, b("lekarze +20%")$p2) < .05) "istotny w obu wariantach" else "istotny przy progach stałych, ale na granicy po uwzględnieniu niepewności progów"`
 (p = `r fpb(b("lekarze +20%")$p_bootstrap, 1000)` i `r f2(b("lekarze +20%")$p2, 2)`). To prawdopodobnie korelacja, a nie skutek:
-lepiej wyposażone w lekarzy są większe ośrodki powiatowe, które same tracą mieszkańców. Pakiet łączny jest na granicy istotności (p = `r f2(b("pakiet łączny")$p_bootstrap, 3)`
-i `r f2(b("pakiet łączny")$p2, 3)`), a pakiet bez dostępności transportowej jest nieistotny
-(p = `r f2(b("pakiet bez dostępności")$p_bootstrap, 2)`). Pewny kierunek mają więc bezrobocie i dostępność,
-a spoza pakietu także firmy i dochody własne samorządu.
+lepiej wyposażone w lekarzy są większe ośrodki powiatowe, które same tracą mieszkańców. Pakiet łączny jest `r pk <- b("pakiet łączny"); if (max(pk$p_bootstrap, pk$p2) < .05) "istotny w obu wariantach" else if (min(pk$p_bootstrap, pk$p2) < .05) "na granicy istotności" else "nieistotny"` (p = `r f2(pk$p_bootstrap, 3)`
+i `r f2(pk$p2, 3)`), a pakiet bez dostępności transportowej jest nieistotny
+(p = `r f2(b("pakiet bez dostępności")$p_bootstrap, 2)`). Pewny kierunek mają więc dźwignie istotne w obu wariantach,
+a wyniki „na granicy” należy traktować ostrożnie.
 
 ### Symulator interwencji (interaktywny)
 
@@ -1380,6 +1445,17 @@ Uzupełnienie tych danych (czas dojazdu z OSRM lub GTFS, UKE, BDL dla usług edu
   XGBoost, ale nie główna prognoza. Prognoza XGBoost, która je uwzględnia, daje bardzo zbliżony ranking,
   lecz nie ekstrapoluje poza zakres danych (najniższa prognoza roczna `r f2(pp_xg$najnizsza_prognoza_roczna, 1)`‰).
 - Wyniki SHAP, permutation importance i scenariusze opisują model, a nie przyczynowość.
+
+
+**Zastrzeżenia metodologiczne:**
+
+- Lata testowe 2019–2024 posłużyły też do wyboru modelu, więc jego błąd na tych latach jest lekko optymistyczny
+  (zob. „Czy wybór modelu jest odporny?”, sekcja 4).
+- Część decyzji zapadła po obejrzeniu wyników: progi z addytywnego XGBoost, rezygnacja z interakcji, rzadsza siatka α.
+  Każda ma uzasadnienie i jest opisana, ale łącznie zwiększają ryzyko dopasowania analizy do danych.
+- Scenariusze pokazują zależności z danych, a nie skutki przyczynowe (np. ujemny „efekt” lekarzy).
+- Prognoza do 2030 r. zakłada, że cechy zmieniają się zgodnie z trendem z lat 2022–2024 i pozostają w zakresie
+  danych. Nie uwzględnia nowych wstrząsów (migracyjnych, gospodarczych).
 
 ## 11. Reprodukcja
 
